@@ -7,6 +7,6 @@
 Внедрение чекбоксов и других интерактивных элементов.
 Обеспечение валидности кода и кроссбраузерной совместимости.
 
-![Image](https://github.com/KatySFreel/sorbi/raw/main/sorbi.png)
+![Image](https://github.com/KatySFreel/sorbi/blob/main/sorbi.jpg)
 
 https://katysfreel.github.io/sorbi/
