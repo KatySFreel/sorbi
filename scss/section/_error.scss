@@ -1,0 +1,54 @@
+.error {
+	background: url('../img/404/404-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.error__title {
+	font-family: 'Montserrat';
+	font-weight: 200;
+	font-size: 160px;
+	line-height: 200px;
+	color: $primary-2;
+	margin-bottom: 32px;
+	@include breakpoint (md) {
+		font-size: 120px;
+		line-height: 70px;
+	}
+}
+.error__sabtitle {
+	font-size: 56px;
+	line-height: 70px;
+	margin-bottom: 16px;
+	color: $bg-dark;
+	@include breakpoint (md) {
+		font-size: 40px;
+		line-height: 60px;
+	}
+}
+.error__text {
+	font-size: 40px;
+	line-height: 60px;
+	color: $bg-dark;
+	@include breakpoint (md) {
+		font-size: 32px;
+		line-height: 32px;
+	}
+}
+.error__link-index {
+	margin-top: 4%;
+	font-size: 32px;
+	line-height: 32px;
+	text-align: center;
+	text-decoration-line: underline;
+	color: $primary-2;
+	@include breakpoint (md) {
+		font-size: 22px;
+		line-height: 12px;
+	}
+}

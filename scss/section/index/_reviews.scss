@@ -1,0 +1,205 @@
+.reviews {
+	background: url('../img/reviews/rev-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	gap: 89px;
+	justify-content: center;
+	padding: 196px 0px;
+
+	@include breakpoint(lg) {
+		padding: 38px 0px;
+	}
+	@include breakpoint(sm) {
+		background: url('../img/reviews/small/rev-bg.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: left center;
+	}
+
+	.container-reviews {
+		margin: 0;
+		margin-right: auto;
+		max-width: 880px;
+		padding: 0;
+	}
+
+	&__top {
+		padding-bottom: 64px;
+	}
+
+	&__title {
+		color: $bg-light;
+
+		&::after {
+			background: $bg-light;
+		}
+	}
+
+	&__wrapper {
+		display: flex;
+		overflow: hidden;
+		width: 100%;
+		align-items: center;
+		height: 100%;
+		background: none;
+	}
+
+	&__item {
+		position: relative;
+		width: 50%;
+		@include breakpoint(xxx) {
+			width: 70%;
+		}
+		@include breakpoint(lg) {
+			width: 100%;
+		}
+
+		img {
+			object-fit: cover;
+			width: 100%;
+		}
+	}
+
+	.swiper {
+		width: 100%;
+		max-width: 800px;
+	}
+
+	.reviews-arrow-prev {
+		background: url('./../img/reviews/arrow-right.svg');
+		@include breakpoint (md) {			
+			background: url('../img/arrow-slide-prev.png');
+		}
+	}
+	.reviews-arrow-next {
+		background: url('./../img/reviews/arrow-left.svg');
+		@include breakpoint (md) {
+			background: url('../img/arrow-slide-next.png');
+		}
+	}
+
+	.reviews-slide {
+		&__top {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			flex-direction: row-reverse;
+			margin-bottom: 48px;
+			@include breakpoint(md) {
+				margin-bottom: 198px;
+			}
+		}
+
+		&__stars {
+			display: flex;
+			flex: auto;
+
+			img {
+				display: block;
+				width: 48px;
+				height: 48px;
+				@include breakpoint (md) {
+					width: 16px;
+					height: 16px;
+				}
+			}
+		}
+
+		&__text {
+			padding: 76px 86px;
+			background: $bg-light;
+			width: 100%;
+			@include breakpoint (md) {
+				padding: 24px;
+				line-height: 20px;
+			}
+		}
+
+		&__btns {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+
+			.swiper-pagination-section {
+				display: block;
+				font-weight: 400;
+				font-size: 20px;
+				line-height: 35px;
+				color: $bg-light;
+				@include breakpoint(lg) {
+					color: $bg-dark;
+				}
+				@include breakpoint(md) {
+					font-weight: 400;
+					font-size: 20px;
+					line-height: 35px;
+				}
+			}
+			@include breakpoint(lg) {
+				background: rgba(255, 255, 255, 0.766);
+				border-radius: 4px;
+			}
+			@include breakpoint(md) {
+				display: none;
+			}
+		}
+		
+
+		
+	}
+
+	.reviews-slide__btns-mob {
+		display: none;
+		@include breakpoint (md) {
+			display: flex;
+		}
+	}
+
+	.swiper-pagination-bullet {
+		border: 0.59375px solid $hair-1;
+	}
+
+	.swiper-pagination-bullet.swiper-pagination-bullet-active.swiper-pagination-bullet-active {
+		background: $hair-3;
+		border-radius: 19px;
+		border: 0.59375px solid $hair-3;
+	}	
+	
+}
+
+.swiper-pagination-section {
+	display: block;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 35px;
+	color: $bg-light;
+	@include breakpoint(lg) {
+		color: $bg-dark;
+	}
+	@include breakpoint(md) {
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 35px;
+	}
+
+	.reviews-prev {
+		background: url('./../img/reviews/arrow-right.svg');
+		@include breakpoint (md) {			
+			background: url('../img/arrow-slide-prev.png');
+		}
+	}
+}
+
+.reviews-next {
+	@include breakpoint (md) {
+		background: url("../img/reviews/arrow-left-mob.svg");
+	}
+}
+.reviews-prev {
+	@include breakpoint (md) {
+		background: url("../img/reviews/arrow-right-mob.svg");
+	}
+}

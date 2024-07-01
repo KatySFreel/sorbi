@@ -1,0 +1,66 @@
+.catedory-procedures-main {
+	margin-bottom: 120px;
+	@include breakpoint(lg) {
+		margin-bottom: 76px;
+	}
+}
+
+.category-procedures__wrapper {
+	background: #3D3D3D;
+}
+
+.category-procedures__title, .category-procedures__text {
+	@include breakpoint(lg) {
+		margin-left: 0;
+		max-width: 100%;
+	}
+}
+
+.category-procedures__content  {
+	margin: 47px auto 53px auto;
+}
+
+@media screen and (max-width: 1900px) {
+	.category-procedures__content {
+		margin: 24px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.category-procedures__imgs {
+	max-width: 647px;
+}
+
+.category-procedures__ingr {
+	@include breakpoint (lg) {
+		display: none;
+	} 
+}
+
+.category-procedures__ingr-mob {
+	display: none;
+	@include breakpoint (lg) {
+		display: block;
+		margin-top: 0;
+		margin-bottom: 6px;
+	} 
+}
+
+.categories-products__title {
+	@include breakpoint (lg) {
+		margin-top: 8px;
+		margin-bottom: 0;
+	}
+}
+
+.category-procedures__review-tag {
+	@include breakpoint(lg) {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+.category-procedures__review-product {
+	text-align: end;
+}

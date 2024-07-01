@@ -1,0 +1,86 @@
+.modal {
+	position: fixed;
+	top: 73px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: -1;
+
+	@include breakpoint(sm) {
+		top: 68px
+	}
+
+	.modal-section {
+		background: $bg-light;
+		height: 100%;
+	}
+
+	&__wrapper {
+		padding: 40px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: #FFFFFF;
+		max-height: 100%;
+		overflow-y: auto;
+		min-height: 100%;
+		opacity: 0;
+		.cross-logo {
+			width: 48px;
+			height: 48px;
+			display: block;
+			position: absolute;
+			left: 80px;
+			object-fit: contain;
+			cursor: pointer;
+			z-index: 320;
+			@include breakpoint (xxx) {
+				display: none;
+			}
+		}
+		@include breakpoint (lg) {
+			padding: 24px;
+		}
+		@include breakpoint (sm) {
+			padding: 0px 0px 24px;
+		}
+	}
+}
+
+.container-modal {
+	height: 100%;
+
+}
+
+.registration__item, .password__item {
+	// position: absolute;
+	// opacity: 0;
+	// // z-index: -1;
+	// transition: all 0.3s ease;
+	// transform: translateY(-100%);
+}
+
+
+.modal.active {
+	opacity: 1;
+	z-index: 210;
+	transform: translateY(0%);
+	.modal__wrapper {
+		opacity: 1;
+	}
+}
+
+.registration__item.active,
+.login__item-active.active 
+.password__item.active {
+	display: block;
+	position: relative;
+	opacity: 1;
+	z-index: 210;
+	transform: translateY(0%);
+}

@@ -1,0 +1,56 @@
+.breadcrumbs {
+	margin-top: 50px;
+	margin-bottom: 32px;
+	display: block;
+	width: auto;
+	@include breakpoint (md) {
+		margin-top: 8px;
+		margin-bottom: 16px;
+	}
+}
+.breadcrums__list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	@include breakpoint (md) {
+		margin-top: 8px;
+		margin-bottom: 16px;
+	}
+}
+
+.breadcrums__link {
+	font-size: 16px;
+	line-height: 28px;
+	text-align: right;
+	text-decoration: underline;
+	color: $bg-dark;
+	position: relative;
+	@include breakpoint (md) {
+		font-size: 12px;
+	}
+}
+
+.breadcrums__link.active {
+	transition: $transform;
+	text-decoration: none;	
+	color: #939292;
+	cursor: auto;
+	&:hover {
+		color: #939292;
+		transition: $transform;
+		cursor: auto;
+	}
+}
+
+.separator {
+	color: #333333;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	font-family: 'Poppins', sans-serif;
+	margin: 0px 8px;
+	@include breakpoint (md) {
+		margin: 0px 12px;
+	}
+}

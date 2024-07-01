@@ -1,0 +1,118 @@
+.subscribe {
+	background: url('../img/subscrible/sub-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+   background-size: contain;
+	padding-top: 86px;
+	padding-bottom: 116px;
+	@include breakpoint(lg) {
+		padding-bottom: 103px;
+		background-position: 100% 146px;
+		background-size: cover;
+		margin: 0;
+	}
+	@include breakpoint (md) {
+		background: url('../img/subscrible/sub-bg-mob.jpg');
+		background-position: center bottom;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	&__title {
+		text-align: center;
+		&::after {
+			content: none;
+		}
+		@include breakpoint(md) {
+			font-size: 20px;
+			line-height: 24px;
+		}
+	}
+
+	&__form-box {
+		width: 652px;
+		margin: 0 auto;
+		margin-top: 24px;
+		@include breakpoint (lg) {
+			width: 100%;
+		}
+		@include breakpoint (md) {
+			width: 100%;
+			margin-top: 36px;
+		}
+	}
+
+	&__form {
+		width: 100%;
+	}
+
+	&__form-inner {
+		display: flex;
+		align-items: center;
+		flex-direction: row-reverse;
+		justify-content: center;
+		gap: 8px;
+		margin-bottom: 40px;
+	}
+
+	&__form-label {
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 18px;
+		@include breakpoint (lg) {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+
+	&__form-input {
+		border-bottom: 1px solid $bg-dark;
+		width: 100%;
+		padding: 4px;
+		background: transparent;
+		transition: $transform;
+		@include breakpoint(lg) {
+			margin-bottom: 8px;
+		}
+		&::placeholder{
+			background: transparent;
+		}
+		
+	}
+
+	input[type=checkbox] {
+		cursor: pointer;
+	}
+
+	input:focus {
+		box-shadow: none;
+		border-bottom: 1px solid $primary-1;
+		transition: $transform;
+	}
+
+	&__form-text {
+		margin-top: 8px;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 18px;
+		color: $bg-dark;
+		a {
+			text-decoration: underline;
+			color: $bg-dark;
+		}
+	}
+	&__form-btn {
+		@include btn-dark;
+		width: 172px;
+		color: $bg-light;
+		margin: 0 auto;
+		margin-top: 40px;
+		border-radius: 4px;
+		@include h5SemiBold;
+		@include breakpoint (lg) {
+			width: 100%;
+		}
+	}
+}
+

@@ -1,0 +1,2582 @@
+<!DOCTYPE html>
+<html lang="HE" dir="rtl">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Dr.Sorbie</title>
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/icon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./img/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/icon/favicon-16x16.png">
+	<link rel="manifest" href="./site.webmanifest">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+	<!-- fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<!-- styles -->
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/nanoscroller.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/select2.min.css" />
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="body">
+	<div class="wrapper">
+		<!-- header -->
+		<header class="header">
+			<div class="container">
+				<div class="header__wrapper">
+					<!-- Menu -->
+					<nav class="nav">
+						<ul class="header__menu header-menu">
+							<li class="header-menu__item burger">
+								<img src="./img/header/hamburger.png" class="burger__img active header-menu__img" alt="">
+								<img src="./img/header/cross.svg" class="burger-cross cross header-menu__img" alt="">
+							</li>
+							<li class="header-menu__item leng">
+								<button type="button" class="leng__link">
+									<img src="./img/header/Language.png" class="leng__img header-menu__img" alt="">
+								</button>
+							</li>
+							<li class="header-menu__item icon">
+								<button type="button" class="icon__link">
+									<img src="./img/header/Сurrency.png" class="icon__img header-menu__img" alt="">
+								</button>
+							</li>
+							<li class="header-menu__item favorites">
+								<button type="button" class="favorites__link">
+									<img src="./img/header/favorite.png" class="favorites__img header-menu__img" alt="">
+									<img src="./img/header/favorites-active.png"
+										class="favorites__img favorites-active-img active-img header-menu__img" alt="">
+									<span class="favorites-span icon-span favorites-active">10</span>
+								</button>
+							</li>
+							<li class="header-menu__item basket">
+								<button type="button" class="basket__link">
+									<img src="./img/header/cart.png" class="basket__img header-menu__img" alt="">
+									<img src="./img/header/basket-active.png"
+										class="basket__img basket-active-img active-img header-menu__img" alt="">
+									<span class="basket-span icon-span basket-active">10</span>
+								</button>
+							</li>
+							<li class="header-menu__item login-icon">
+								<button type="button" class="login__link">
+									<img src="./img/header/user.png" class="login__img header-menu__img" alt="">
+								</button>
+							</li>
+							<li class="header-menu__item search search-open">
+								<button type="button" class="search__link">
+									<img src="./img/header/search.png" class="search__img header-menu__img" alt="">
+								</button>
+							</li>
+						</ul>
+					</nav>
+					<!-- Menu End -->
+					<div class="logo">
+						<a href="index.html" class="logo__link">
+							<img src="./img/header/logo.svg" alt="" class="logo__img">
+						</a>
+					</div>
+
+					<div class="header__btns">
+						<a href="" class="btn header__btn">
+							לחנות
+						</a>
+						<div class="btn-header__wrapper wrapper-click">
+							<button id="btn-header" class="btn header__btn select-header wrapper-click__btn">
+								למקצוענים
+							</button>
+							<ul class="header-bottom__list wrapper-click__nemu">
+								<li class="header-bottom__item wrapper-click__item">
+									<a href="" class="header-bottom__link wrapper-click__link">
+										לאנשי מקצוע
+									</a>
+								</li>
+								<li class="header-bottom__item wrapper-click__item">
+									<a href="" class="header-bottom__link wrapper-click__link">
+										טיפול אישי
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-menu-burger">
+				<div class="header-menu-top">
+					<div class="container">
+						<nav class="header-menu-nav">
+							<div class="header__btns">
+								<a href="" class="btn header__btn">
+									לחנות
+								</a>
+								<div class="btn-header__wrapper wrapper-click">
+									<button id="btn-header-mob" class="btn header__btn select-header wrapper-click__btn">
+										למקצוענים
+									</button>
+									<ul class="header-bottom__list wrapper-click__nemu">
+										<li class="header-bottom__item wrapper-click__item">
+											<a href="" class="header-bottom__link wrapper-click__link">
+												לאנשי מקצוע
+											</a>
+										</li>
+										<li class="header-bottom__item wrapper-click__item">
+											<a href="" class="header-bottom__link wrapper-click__link">
+												טיפול אישי
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<ul class="header__menu header-menu">
+								<li class="header-menu__item favorites">
+									<button type="button" class="favorites__link">
+										<img src="./img/header/favorite.png" class="favorites__img header-menu__img" alt="">
+										<img src="./img/header/favorites-active.png"
+											class="favorites__img favorites-active-img active-img header-menu__img" alt="">
+										<span class="favorites-span icon-span favorites-active">10</span>
+									</button>
+								</li>
+								<li class="header-menu__item login-icon">
+									<button type="button" class="login__link">
+										<img src="./img/header/user.png" class="login__img" alt="">
+									</button>
+								</li>
+							</ul>
+							<div class="search">
+								<form action="" class="header__form-search">
+									<input id="header-search" class="form-search__input" type="text"
+										placeholder="חיפוש מוצר או טיפול">
+									<button class="search__btn" type="button">
+										<img src="./img/header/search.png" class="search__img" alt="">
+									</button>
+								</form>
+							</div>
+							<ul class="header-menu-list">
+								<li class="header-menu-item">
+									<a href="categories.html" class="header-menu__link opacity-anim">
+										טיפוח שיער
+									</a>
+								</li>
+								<li class="header-menu-item">
+									<a href="" class="header-menu__link opacity-anim">
+										טיפוח פנים
+									</a>
+								</li>
+								<li class="header-menu-item">
+									<a href="" class="header-menu__link opacity-anim">
+										טריכולוגיה
+									</a>
+								</li>
+								<li class="header-menu-item">
+									<a href="" class="header-menu__link opacity-anim">
+										מיני קיט
+									</a>
+								</li>
+								<li class="header-menu-item">
+									<a href="" class="header-menu__link opacity-anim">
+										בקשת ייעוץ
+									</a>
+								</li>
+								<li class="header-menu-item">
+									<a href="" class="header-menu__link opacity-anim">
+										עזרה
+									</a>
+								</li>
+								<li class="header-menu-item">
+									<a href="" class="header-menu__link opacity-anim">
+										אודותינו
+									</a>
+								</li>
+								<li class="header-menu-item">
+									<a href="" class="header-menu__link opacity-anim">
+										חיפוש סלון קרוב
+									</a>
+								</li>
+								<li class="header-menu-item">
+									<a href="" class="header-menu__link opacity-anim">
+										שיתוף פעולה
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="header-menu-bottom">
+					<div class="container">
+						<div class="header-menu-bottom__wrapper">
+							<div class="header-menu-bottom__content">
+								<ul class="header-menu-bottom-list">
+									<li class="footer__menu-item">
+										<!--noindex-->
+										<a href="" class="footer__menu-link" target="_blank" rel="noopener nofollow">
+											<img src="./img/menu/contact/email.svg" alt="">
+										</a>
+										<!--/noindex-->
+									</li>
+									<li class="footer__menu-item">
+										<!--noindex-->
+										<a href="" class="footer__menu-link" target="_blank" rel="noopener nofollow">
+											<img src="./img/menu/contact/call.svg" alt="">
+										</a>
+										<!--/noindex-->
+									</li>
+									<li class="footer__menu-item">
+										<!--noindex-->
+										<a href="" class="footer__menu-link" target="_blank" rel="noopener nofollow">
+											<img src="./img/menu/contact/wh.svg" alt="">
+										</a>
+										<!--/noindex-->
+									</li>
+									<li class="footer__menu-item burger-menu__contact-item">
+										<!--noindex-->
+										<a href="" class="footer__menu-link" target="_blank" rel="noopener nofollow">
+											<img src="./img/menu/contact/c-1.svg" alt="">
+										</a>
+										<!--/noindex-->
+									</li>
+								</ul>
+							</div>
+							<ul class="header-menu-bottom-list">
+								<li class="footer__menu-item">
+									<!--noindex-->
+									<a href="" class="footer__menu-link footer__link" target="_blank" rel="noopener nofollow">
+										<img src="./img/menu/social/fc.svg" alt="">
+									</a>
+									<!--/noindex-->
+								</li>
+								<li class="footer__menu-item">
+									<!--noindex-->
+									<a href="" class="footer__menu-link footer__link" target="_blank" rel="noopener nofollow">
+										<img src="./img/menu/social/tw.svg" alt="">
+									</a>
+									<!--/noindex-->
+								</li>
+								<li class="footer__menu-item">
+									<!--noindex-->
+									<a href="" class="footer__menu-link footer__link" target="_blank" rel="noopener nofollow">
+										<img src="./img/menu/social/tel.svg" alt="">
+									</a>
+									<!--/noindex-->
+								</li>
+								<li class="footer__menu-item">
+									<!--noindex-->
+									<a href="" class="footer__menu-link footer__link" target="_blank" rel="noopener nofollow">
+										<img src="./img/menu/social/inst.svg" alt="">
+									</a>
+									<!--/noindex-->
+								</li>
+								<li class="footer__menu-item">
+									<!--noindex-->
+									<a href="" class="footer__menu-link footer__link" target="_blank" rel="noopener nofollow">
+										<img src="./img/menu/social/yu.svg" alt="">
+									</a>
+									<!--/noindex-->
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- /header -->
+		<!-- main -->
+		<main class="main shop-main">
+
+			<!-- breadcrumbs -->
+			<div class="breadcrumbs breadcrumbs-shop breadcrumbs-shop-mob">
+				<div class="container">
+					<ul class="breadcrums__list" id="breadcrumblist" itemscope itemtype="http://schema.org/BreadcrumbList">
+						<li class="breadcrums__item" itemprop="itemListElement" itemscope
+							itemtype="http://schema.org/ListItem">
+							<a class="breadcrums__link" itemprop="item" href="https://organicdigital.co/"><span
+									itemprop="name">
+									<span itemprop="name">
+										דף הבית
+									</span>
+							</a>
+							<meta itemprop="position" content="1" />
+						</li>
+						<li>
+							<span class="separator">></span>
+						</li>
+						<li class="breadcrums__item" itemprop="itemListElement" itemscope
+							itemtype="http://schema.org/ListItem">
+							<a class="breadcrums__link active" itemprop="item" href="/blog-video.html">
+								<span itemprop="name">
+									בלוג חדשות
+								</span>
+							</a>
+							<meta itemprop="position" content="2" />
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- /breadcrumbs -->
+
+			<!-- slider -->
+			<section class="shop-offer">
+				<div class="shop-offer__wrapper">
+					<div class="shop-slider blog-video-slider">
+						<div class="shop-wrapper__imgs blog-video__wrapper-imgs">
+							<picture>
+								<source srcset="./img/blog-video/slider-small.jpg" media="(max-width: 425px)">
+								<source srcset="./img/blog-video/slider.jpg">
+								<img src="./img/blog-video/slider.jpg" class="shop-offer__img-prod" alt="" fetchpriority="high">
+							</picture>
+						</div>
+						<div class="swiper-wrapper shop-slider__wrapper blog-video-slider__wrapper">
+							<!-- Slides -->
+							<div class="shop-slider__item slide-2 swiper-slide blog-video-slider__slide">
+								<h3 class="shop-slider__title blog-video__slider-title">
+									בריאות השיער שלך
+								</h3>
+								<h4 class="shop-slider__sabtitle blog-video__slider-sabtitle">
+									מתחילה מקרקפת בריאה
+								</h4>
+								<a href="" class="btn shop-slider__btn btn-nobg blog-video__slider-bnt">
+									למידע נוסף
+								</a>
+							</div>
+							<div class="shop-slider__item slide-2 swiper-slide blog-video-slider__slide">
+								<h3 class="shop-slider__title blog-video__slider-title">
+									בריאות השיער שלך
+								</h3>
+								<h4 class="shop-slider__sabtitle blog-video__slider-sabtitle">
+									מתחילה מקרקפת בריאה
+								</h4>
+								<a href="" class="btn shop-slider__btn btn-nobg blog-video__slider-bnt">
+									למידע נוסף
+								</a>
+							</div>
+						</div>
+						<div class="slider-nav">
+							<button class="prev shop-slider-prev blog-video-prev-offer shop-slider-prev-offer">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M8.33268 21.6667H28.1077L22.0527 28.9333C21.4627 29.64 21.5593 30.6917 22.266 31.28C22.9743 31.87 24.0243 31.7733 24.6143 31.0667L32.9477 21.0667C33.0127 20.9883 33.0443 20.8967 33.0927 20.81C33.1327 20.74 33.181 20.68 33.211 20.6033C33.286 20.4117 33.331 20.21 33.331 20.0067C33.331 20.005 33.3327 20.0017 33.3327 20C33.3327 19.9983 33.331 19.995 33.331 19.9933C33.331 19.79 33.286 19.5883 33.211 19.3967C33.181 19.32 33.1327 19.26 33.0927 19.19C33.0443 19.1033 33.0127 19.0117 32.9477 18.9333L24.6143 8.93334C24.2827 8.53834 23.8093 8.33334 23.3327 8.33334C22.956 8.33334 22.5777 8.46001 22.266 8.72001C21.5593 9.30834 21.4627 10.36 22.0527 11.0667L28.1077 18.3333H8.33268C7.41268 18.3333 6.66602 19.08 6.66602 20C6.66602 20.92 7.41268 21.6667 8.33268 21.6667Z" fill="currentColor"/>
+									</svg>									
+							</button>
+							<button class="next shop-slider-next blog-video-next-offer shop-slider-next-offer">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M31.666 18.3333H11.891L17.946 11.0667C18.536 10.36 18.4393 9.30834 17.7327 8.72001C17.0243 8.13001 15.9743 8.22668 15.386 8.93334L7.05268 18.9333C6.98768 19.0117 6.95435 19.1033 6.90602 19.19C6.86602 19.26 6.81768 19.32 6.78768 19.3967C6.71268 19.5883 6.66768 19.79 6.66768 19.9933C6.66768 19.995 6.66602 19.9983 6.66602 20C6.66602 20.0017 6.66768 20.005 6.66768 20.0067C6.66768 20.21 6.71268 20.4117 6.78768 20.6033C6.81768 20.68 6.86602 20.74 6.90602 20.81C6.95435 20.8967 6.98768 20.9883 7.05268 21.0667L15.386 31.0667C15.716 31.4617 16.1893 31.6667 16.666 31.6667C17.0427 31.6667 17.421 31.54 17.7327 31.28C18.4393 30.6917 18.536 29.64 17.946 28.9333L11.891 21.6667H31.666C32.586 21.6667 33.3327 20.92 33.3327 20C33.3327 19.08 32.586 18.3333 31.666 18.3333Z" fill="currentColor"/>
+									</svg>
+							</button>
+						</div>
+						<div class="slider__control offer-slider-control shop-slider-control">
+							<button class="shop-slider-next shop-slider-prev-arrow next-arrow blog-video-prev-arrow ">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M14.1568 19C13.8648 19 13.5748 18.873 13.3768 18.627L8.54878 12.627C8.25078 12.256 8.25478 11.726 8.55978 11.36L13.5598 5.35998C13.9128 4.93598 14.5438 4.87898 14.9688 5.23198C15.3928 5.58498 15.4498 6.21598 15.0958 6.63998L10.6208 12.011L14.9358 17.373C15.2818 17.803 15.2138 18.433 14.7828 18.779C14.5988 18.928 14.3768 19 14.1568 19Z" fill="currentColor"/>
+									</svg>
+							</button>
+							<div class="slider__pagination blog-video__pagination"></div>
+							<button class="shop-slider-prev shop-slider-next-arrow prev-arrow blog-video-next-arrow">	
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M10.3276 19C10.1016 19 9.87462 18.924 9.68762 18.768C9.26362 18.415 9.20662 17.784 9.55962 17.36L14.0356 11.989L9.72062 6.62701C9.37462 6.19701 9.44262 5.56701 9.87262 5.22101C10.3036 4.87501 10.9326 4.94301 11.2796 5.37301L16.1076 11.373C16.4056 11.744 16.4016 12.274 16.0966 12.64L11.0966 18.64C10.8986 18.877 10.6146 19 10.3276 19Z" fill="currentColor"/>
+									</svg>																
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /slider -->
+
+			<!-- breadcrumbs -->
+			<div class="breadcrumbs breadcrumbs-shop">
+				<div class="container">
+					<ul class="breadcrums__list" id="breadcrumblist" itemscope itemtype="http://schema.org/BreadcrumbList">
+						<li class="breadcrums__item" itemprop="itemListElement" itemscope
+							itemtype="http://schema.org/ListItem">
+							<a class="breadcrums__link" itemprop="item" href="https://organicdigital.co/"><span
+									itemprop="name">
+									<span itemprop="name">
+										דף הבית
+									</span>
+							</a>
+							<meta itemprop="position" content="1" />
+						</li>
+						<li>
+							<span class="separator">></span>
+						</li>
+						<li class="breadcrums__item" itemprop="itemListElement" itemscope
+							itemtype="http://schema.org/ListItem">
+							<a class="breadcrums__link active" itemprop="item" href="/blog-video.html">
+								<span itemprop="name">
+									בלוג חדשות
+								</span>
+							</a>
+							<meta itemprop="position" content="2" />
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- /breadcrumbs -->
+
+			<ul class="shop__links video-blog__links">
+				<li class="shop__links-item">
+					<a href="" class="shop-link">
+						כתבות
+					</a>
+				</li>
+				<li class="shop__links-item active">
+					<a href="" class="shop-link">
+						וידאו חדשות
+					</a>
+				</li>
+			</ul>
+
+			<!-- video-block -->
+			<section class="blog-video">
+				<article class="secrets blog-video-article" >
+					<div class="container secrets-container">
+						<div class="news__wrapper secrets__wrapper">
+							<div class="secrets__item">
+								<picture>
+									<source srcset="./img/blog-video/item1-small.jpg" media="(max-width: 468px)">
+									<source srcset="./img/blog-video/item1.jpg">
+									<img src="./img/blog-video/item1.jpg" itemprop="image" alt="">
+								</picture>
+							</div>
+							<div class="secrets__item video-content">
+								<h3 class="blog__title" >
+									מחקרי מעבדה של היעילות של מוצרי ד"ר סורבי
+								</h3>
+								<div class="blog__desc" >
+									רצינו לא רק להרגיש אלא גם לראות מה קורה לשיער לאחר שימוש במוצרי ד"ר סורבי בשלבים שונים ,להתבונן  בהשפעה על השיער. לשם כך ערכנו במעבדה מחקר מעמיק מיוחד בסיוע טכנולוגי של אוניברסיטת בן גוריון באר שבע. הופתענו מהתוצאות הוויזואליות ובגאווה רבה נציג לכם אותן עכשיו.
+								</div>
+								<div class="blog__wrapper">
+									<time >16.11.2022</time>
+									<div class="share">
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9993 15.8333C14.5393 15.8333 14.166 15.46 14.166 15C14.166 14.54 14.5393 14.1667 14.9993 14.1667C15.4593 14.1667 15.8327 14.54 15.8327 15C15.8327 15.46 15.4593 15.8333 14.9993 15.8333ZM4.16602 10.8333C3.70602 10.8333 3.33268 10.46 3.33268 10C3.33268 9.54 3.70602 9.16667 4.16602 9.16667C4.62602 9.16667 4.99935 9.54 4.99935 10C4.99935 10.46 4.62602 10.8333 4.16602 10.8333ZM14.9993 4.16667C15.4593 4.16667 15.8327 4.54 15.8327 5C15.8327 5.46 15.4593 5.83333 14.9993 5.83333C14.5393 5.83333 14.166 5.46 14.166 5C14.166 4.54 14.5393 4.16667 14.9993 4.16667ZM14.9993 12.5C14.3185 12.5 13.7018 12.775 13.2502 13.2175L6.63768 10.2792C6.64852 10.1867 6.66602 10.095 6.66602 10C6.66602 9.905 6.64852 9.81333 6.63768 9.72083L13.2502 6.7825C13.7018 7.225 14.3185 7.5 14.9993 7.5C16.3777 7.5 17.4993 6.37833 17.4993 5C17.4993 3.62167 16.3777 2.5 14.9993 2.5C13.621 2.5 12.4993 3.62167 12.4993 5C12.4993 5.095 12.5168 5.18667 12.5277 5.27917L5.91518 8.2175C5.46352 7.775 4.84685 7.5 4.16602 7.5C2.78768 7.5 1.66602 8.62167 1.66602 10C1.66602 11.3783 2.78768 12.5 4.16602 12.5C4.84685 12.5 5.46352 12.225 5.91518 11.7825L12.5277 14.7208C12.5168 14.8133 12.4993 14.905 12.4993 15C12.4993 16.3783 13.621 17.5 14.9993 17.5C16.3777 17.5 17.4993 16.3783 17.4993 15C17.4993 13.6217 16.3777 12.5 14.9993 12.5Z" fill="currentColor"/>
+											</svg>
+											<ul class="share__list share-list">
+												<li class="share__item">
+													 <!--noindex-->
+													<a href="" class="share__link" target="_blank" rel="noopener nofollow">
+														<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M28.7106 9.48225C28.7309 9.7665 28.7309 10.0508 28.7309 10.3351C28.7309 19.0051 22.132 28.9949 10.0711 28.9949C6.35531 28.9949 2.90356 27.9188 0 26.0508C0.527937 26.1117 1.0355 26.132 1.58375 26.132C4.64969 26.132 7.47206 25.0965 9.72587 23.33C6.84262 23.2691 4.42637 21.3808 3.59387 18.7818C4 18.8426 4.40606 18.8833 4.8325 18.8833C5.42131 18.8833 6.01019 18.802 6.55837 18.6599C3.55331 18.0508 1.29944 15.4112 1.29944 12.2234V12.1422C2.1725 12.6295 3.18781 12.9341 4.26387 12.9746C2.49737 11.7969 1.34006 9.78681 1.34006 7.51269C1.34006 6.29444 1.66487 5.17769 2.23344 4.20306C5.46187 8.18275 10.3147 10.7817 15.7562 11.066C15.6547 10.5787 15.5938 10.0711 15.5938 9.5635C15.5938 5.94925 18.5177 3.00513 22.1522 3.00513C24.0405 3.00513 25.7461 3.797 26.9441 5.07619C28.4262 4.79194 29.8476 4.24369 31.1065 3.49244C30.6191 5.01531 29.5836 6.2945 28.2232 7.10663C29.5431 6.96456 30.8222 6.599 31.9999 6.09144C31.1066 7.39088 29.9898 8.54819 28.7106 9.48225Z" fill="currentColor"/>
+															</svg>						
+													</a>
+													<!--/noindex-->
+												</li>
+												<li class="share__item">
+													<!--noindex-->
+													<a href="" class="share__link" target="_blank" rel="noopener nofollow">
+														<svg width="21" height="32" viewBox="0 0 21 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M20.9383 6.16244L17.7695 26.0874C17.5305 27.4937 16.907 27.8437 16.0211 27.1812L11.193 22.4374L8.8633 25.4249C8.60548 25.7687 8.38986 26.0562 7.89298 26.0562L8.23986 19.4999L17.1883 8.71869C17.5774 8.25619 17.1039 7.99994 16.5836 8.46244L5.52111 17.7499L0.75861 15.7624C-0.277328 15.3312 -0.296078 14.3812 0.974234 13.7187L19.6024 4.14994C20.4649 3.71869 21.2195 4.40619 20.9383 6.16244Z" fill="currentColor"/>
+															</svg>									
+													</a>
+													<!--/noindex-->
+												</li>
+												<li class="share__item">
+													<!--noindex-->
+													<a href="" class="share__link" target="_blank" rel="noopener nofollow">
+														<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M24.0007 2.66663H20.0007C18.2325 2.66663 16.5368 3.369 15.2866 4.61925C14.0364 5.86949 13.334 7.56518 13.334 9.33329V13.3333H9.33398V18.6666H13.334V29.3333H18.6673V18.6666H22.6673L24.0007 13.3333H18.6673V9.33329C18.6673 8.97967 18.8078 8.64053 19.0578 8.39048C19.3079 8.14044 19.647 7.99996 20.0007 7.99996H24.0007V2.66663Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+															</svg>		
+													</a>
+													<!--/noindex-->
+												 </li>
+											</ul>
+									</div>
+								</div>
+								<div class="blog__btn btn">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M11.5 14.5996V9.4006L14.309 11.9996L11.5 14.5996ZM12.339 7.4526C11.841 6.9906 11.114 6.8706 10.488 7.1456C9.878 7.4116 9.5 7.9806 9.5 8.6296V15.3706C9.5 16.0196 9.878 16.5886 10.488 16.8546C10.711 16.9526 10.948 16.9996 11.181 16.9996C11.604 16.9996 12.019 16.8446 12.338 16.5486L15.98 13.1786C16.311 12.8726 16.5 12.4436 16.5 11.9996C16.5 11.5566 16.311 11.1266 15.98 10.8216L12.339 7.4526ZM12 20C7.589 20 4 16.411 4 12C4 7.589 7.589 4 12 4C16.411 4 20 7.589 20 12C20 16.411 16.411 20 12 20ZM12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2Z" fill="currentColor"/>
+										</svg>											
+									לצפייה בסרטון
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="secrets blog-video-article " >
+					<div class="container secrets-container">
+						<div class="news__wrapper secrets__wrapper blog-video__wrapper-reverse">
+							<div class="secrets__item video-content video-content-reverse">
+								<h3 class="blog__title" >
+									ד"ר סורבי לטיפוח בזקן
+								</h3>
+								<div class="blog__desc" >
+									שלושה שלבים לזקן מושלם! 
+									<ul>
+										<li>
+											1. שמפו לניקוי עמוק- Deep cleaning shampoo
+										</li>
+										<li>
+											2. שמן טיפולי Therapy oil לברק.
+										</li>
+										<li>
+											3. קרם קרטין Vita booster לחיזוק השיער.
+										</li>
+									</ul>
+								</div>
+								<div class="blog__wrapper">
+									<time >16.11.2022</time>
+									<div class="share">
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9993 15.8333C14.5393 15.8333 14.166 15.46 14.166 15C14.166 14.54 14.5393 14.1667 14.9993 14.1667C15.4593 14.1667 15.8327 14.54 15.8327 15C15.8327 15.46 15.4593 15.8333 14.9993 15.8333ZM4.16602 10.8333C3.70602 10.8333 3.33268 10.46 3.33268 10C3.33268 9.54 3.70602 9.16667 4.16602 9.16667C4.62602 9.16667 4.99935 9.54 4.99935 10C4.99935 10.46 4.62602 10.8333 4.16602 10.8333ZM14.9993 4.16667C15.4593 4.16667 15.8327 4.54 15.8327 5C15.8327 5.46 15.4593 5.83333 14.9993 5.83333C14.5393 5.83333 14.166 5.46 14.166 5C14.166 4.54 14.5393 4.16667 14.9993 4.16667ZM14.9993 12.5C14.3185 12.5 13.7018 12.775 13.2502 13.2175L6.63768 10.2792C6.64852 10.1867 6.66602 10.095 6.66602 10C6.66602 9.905 6.64852 9.81333 6.63768 9.72083L13.2502 6.7825C13.7018 7.225 14.3185 7.5 14.9993 7.5C16.3777 7.5 17.4993 6.37833 17.4993 5C17.4993 3.62167 16.3777 2.5 14.9993 2.5C13.621 2.5 12.4993 3.62167 12.4993 5C12.4993 5.095 12.5168 5.18667 12.5277 5.27917L5.91518 8.2175C5.46352 7.775 4.84685 7.5 4.16602 7.5C2.78768 7.5 1.66602 8.62167 1.66602 10C1.66602 11.3783 2.78768 12.5 4.16602 12.5C4.84685 12.5 5.46352 12.225 5.91518 11.7825L12.5277 14.7208C12.5168 14.8133 12.4993 14.905 12.4993 15C12.4993 16.3783 13.621 17.5 14.9993 17.5C16.3777 17.5 17.4993 16.3783 17.4993 15C17.4993 13.6217 16.3777 12.5 14.9993 12.5Z" fill="currentColor"/>
+											</svg>
+											<ul class="share__list share-list">
+												<li class="share__item">
+													 <!--noindex-->
+													<a href="" class="share__link" target="_blank" rel="noopener nofollow">
+														<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M28.7106 9.48225C28.7309 9.7665 28.7309 10.0508 28.7309 10.3351C28.7309 19.0051 22.132 28.9949 10.0711 28.9949C6.35531 28.9949 2.90356 27.9188 0 26.0508C0.527937 26.1117 1.0355 26.132 1.58375 26.132C4.64969 26.132 7.47206 25.0965 9.72587 23.33C6.84262 23.2691 4.42637 21.3808 3.59387 18.7818C4 18.8426 4.40606 18.8833 4.8325 18.8833C5.42131 18.8833 6.01019 18.802 6.55837 18.6599C3.55331 18.0508 1.29944 15.4112 1.29944 12.2234V12.1422C2.1725 12.6295 3.18781 12.9341 4.26387 12.9746C2.49737 11.7969 1.34006 9.78681 1.34006 7.51269C1.34006 6.29444 1.66487 5.17769 2.23344 4.20306C5.46187 8.18275 10.3147 10.7817 15.7562 11.066C15.6547 10.5787 15.5938 10.0711 15.5938 9.5635C15.5938 5.94925 18.5177 3.00513 22.1522 3.00513C24.0405 3.00513 25.7461 3.797 26.9441 5.07619C28.4262 4.79194 29.8476 4.24369 31.1065 3.49244C30.6191 5.01531 29.5836 6.2945 28.2232 7.10663C29.5431 6.96456 30.8222 6.599 31.9999 6.09144C31.1066 7.39088 29.9898 8.54819 28.7106 9.48225Z" fill="currentColor"/>
+															</svg>						
+													</a>
+													<!--/noindex-->
+												</li>
+												<li class="share__item">
+													<!--noindex-->
+													<a href="" class="share__link" target="_blank" rel="noopener nofollow">
+														<svg width="21" height="32" viewBox="0 0 21 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M20.9383 6.16244L17.7695 26.0874C17.5305 27.4937 16.907 27.8437 16.0211 27.1812L11.193 22.4374L8.8633 25.4249C8.60548 25.7687 8.38986 26.0562 7.89298 26.0562L8.23986 19.4999L17.1883 8.71869C17.5774 8.25619 17.1039 7.99994 16.5836 8.46244L5.52111 17.7499L0.75861 15.7624C-0.277328 15.3312 -0.296078 14.3812 0.974234 13.7187L19.6024 4.14994C20.4649 3.71869 21.2195 4.40619 20.9383 6.16244Z" fill="currentColor"/>
+															</svg>									
+													</a>
+													<!--/noindex-->
+												</li>
+												<li class="share__item">
+													<!--noindex-->
+													<a href="" class="share__link" target="_blank" rel="noopener nofollow">
+														<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M24.0007 2.66663H20.0007C18.2325 2.66663 16.5368 3.369 15.2866 4.61925C14.0364 5.86949 13.334 7.56518 13.334 9.33329V13.3333H9.33398V18.6666H13.334V29.3333H18.6673V18.6666H22.6673L24.0007 13.3333H18.6673V9.33329C18.6673 8.97967 18.8078 8.64053 19.0578 8.39048C19.3079 8.14044 19.647 7.99996 20.0007 7.99996H24.0007V2.66663Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+															</svg>		
+													</a>
+													<!--/noindex-->
+												 </li>
+											</ul>
+									</div>
+								</div>
+								<div class="blog__btn btn">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M11.5 14.5996V9.4006L14.309 11.9996L11.5 14.5996ZM12.339 7.4526C11.841 6.9906 11.114 6.8706 10.488 7.1456C9.878 7.4116 9.5 7.9806 9.5 8.6296V15.3706C9.5 16.0196 9.878 16.5886 10.488 16.8546C10.711 16.9526 10.948 16.9996 11.181 16.9996C11.604 16.9996 12.019 16.8446 12.338 16.5486L15.98 13.1786C16.311 12.8726 16.5 12.4436 16.5 11.9996C16.5 11.5566 16.311 11.1266 15.98 10.8216L12.339 7.4526ZM12 20C7.589 20 4 16.411 4 12C4 7.589 7.589 4 12 4C16.411 4 20 7.589 20 12C20 16.411 16.411 20 12 20ZM12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2Z" fill="currentColor"/>
+										</svg>											
+									לצפייה בסרטון
+								</div>
+							</div>
+							<div class="secrets__item video-img">
+								<picture>
+									<source srcset="./img/blog-video/item2-small.jpg" media="(max-width: 468px)">
+									<source srcset="./img/blog-video/item2.jpg">
+									<img src="./img/blog-video/item2.jpg" itemprop="image" alt="">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="secrets blog-video-article">
+					<div class="container secrets-container">
+						<div class="news__wrapper secrets__wrapper">
+							<div class="secrets__item">
+								<picture>
+									<source srcset="./img/blog-video/item3-small.jpg" media="(max-width: 468px)">
+									<source srcset="./img/blog-video/item3.jpg">
+									<img src="./img/blog-video/item3.jpg" itemprop="image" alt="">
+								</picture>
+							</div>
+							<div class="secrets__item video-content">
+								<h3 class="blog__title" >
+									סרטון תדמית רשמי של המותג
+								</h3>
+								<div class="blog__desc" >
+									אנו מציגים בפניכם תרכובות אורגניות. ביו טכנולוגיות של ישראל. מרכיבים טבעיים לתוצאה הטובה ביותר. קוסמטיקה חכמה. לכל סוג שיער, בכל רמת נזק. ללא SLS ופארבנים. הצטרפו למומחים של ד"ר סורבי ברחבי העולם.
+								</div>
+								<div class="blog__wrapper">
+									<time >16.11.2022</time>
+									<div class="share">
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9993 15.8333C14.5393 15.8333 14.166 15.46 14.166 15C14.166 14.54 14.5393 14.1667 14.9993 14.1667C15.4593 14.1667 15.8327 14.54 15.8327 15C15.8327 15.46 15.4593 15.8333 14.9993 15.8333ZM4.16602 10.8333C3.70602 10.8333 3.33268 10.46 3.33268 10C3.33268 9.54 3.70602 9.16667 4.16602 9.16667C4.62602 9.16667 4.99935 9.54 4.99935 10C4.99935 10.46 4.62602 10.8333 4.16602 10.8333ZM14.9993 4.16667C15.4593 4.16667 15.8327 4.54 15.8327 5C15.8327 5.46 15.4593 5.83333 14.9993 5.83333C14.5393 5.83333 14.166 5.46 14.166 5C14.166 4.54 14.5393 4.16667 14.9993 4.16667ZM14.9993 12.5C14.3185 12.5 13.7018 12.775 13.2502 13.2175L6.63768 10.2792C6.64852 10.1867 6.66602 10.095 6.66602 10C6.66602 9.905 6.64852 9.81333 6.63768 9.72083L13.2502 6.7825C13.7018 7.225 14.3185 7.5 14.9993 7.5C16.3777 7.5 17.4993 6.37833 17.4993 5C17.4993 3.62167 16.3777 2.5 14.9993 2.5C13.621 2.5 12.4993 3.62167 12.4993 5C12.4993 5.095 12.5168 5.18667 12.5277 5.27917L5.91518 8.2175C5.46352 7.775 4.84685 7.5 4.16602 7.5C2.78768 7.5 1.66602 8.62167 1.66602 10C1.66602 11.3783 2.78768 12.5 4.16602 12.5C4.84685 12.5 5.46352 12.225 5.91518 11.7825L12.5277 14.7208C12.5168 14.8133 12.4993 14.905 12.4993 15C12.4993 16.3783 13.621 17.5 14.9993 17.5C16.3777 17.5 17.4993 16.3783 17.4993 15C17.4993 13.6217 16.3777 12.5 14.9993 12.5Z" fill="currentColor"/>
+											</svg>
+											<ul class="share__list share-list">
+												<li class="share__item">
+													 <!--noindex-->
+													<a href="" class="share__link" target="_blank" rel="noopener nofollow">
+														<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M28.7106 9.48225C28.7309 9.7665 28.7309 10.0508 28.7309 10.3351C28.7309 19.0051 22.132 28.9949 10.0711 28.9949C6.35531 28.9949 2.90356 27.9188 0 26.0508C0.527937 26.1117 1.0355 26.132 1.58375 26.132C4.64969 26.132 7.47206 25.0965 9.72587 23.33C6.84262 23.2691 4.42637 21.3808 3.59387 18.7818C4 18.8426 4.40606 18.8833 4.8325 18.8833C5.42131 18.8833 6.01019 18.802 6.55837 18.6599C3.55331 18.0508 1.29944 15.4112 1.29944 12.2234V12.1422C2.1725 12.6295 3.18781 12.9341 4.26387 12.9746C2.49737 11.7969 1.34006 9.78681 1.34006 7.51269C1.34006 6.29444 1.66487 5.17769 2.23344 4.20306C5.46187 8.18275 10.3147 10.7817 15.7562 11.066C15.6547 10.5787 15.5938 10.0711 15.5938 9.5635C15.5938 5.94925 18.5177 3.00513 22.1522 3.00513C24.0405 3.00513 25.7461 3.797 26.9441 5.07619C28.4262 4.79194 29.8476 4.24369 31.1065 3.49244C30.6191 5.01531 29.5836 6.2945 28.2232 7.10663C29.5431 6.96456 30.8222 6.599 31.9999 6.09144C31.1066 7.39088 29.9898 8.54819 28.7106 9.48225Z" fill="currentColor"/>
+															</svg>						
+													</a>
+													<!--/noindex-->
+												</li>
+												<li class="share__item">
+													<!--noindex-->
+													<a href="" class="share__link" target="_blank" rel="noopener nofollow">
+														<svg width="21" height="32" viewBox="0 0 21 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M20.9383 6.16244L17.7695 26.0874C17.5305 27.4937 16.907 27.8437 16.0211 27.1812L11.193 22.4374L8.8633 25.4249C8.60548 25.7687 8.38986 26.0562 7.89298 26.0562L8.23986 19.4999L17.1883 8.71869C17.5774 8.25619 17.1039 7.99994 16.5836 8.46244L5.52111 17.7499L0.75861 15.7624C-0.277328 15.3312 -0.296078 14.3812 0.974234 13.7187L19.6024 4.14994C20.4649 3.71869 21.2195 4.40619 20.9383 6.16244Z" fill="currentColor"/>
+															</svg>									
+													</a>
+													<!--/noindex-->
+												</li>
+												<li class="share__item">
+													<!--noindex-->
+													<a href="" class="share__link" target="_blank" rel="noopener nofollow">
+														<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M24.0007 2.66663H20.0007C18.2325 2.66663 16.5368 3.369 15.2866 4.61925C14.0364 5.86949 13.334 7.56518 13.334 9.33329V13.3333H9.33398V18.6666H13.334V29.3333H18.6673V18.6666H22.6673L24.0007 13.3333H18.6673V9.33329C18.6673 8.97967 18.8078 8.64053 19.0578 8.39048C19.3079 8.14044 19.647 7.99996 20.0007 7.99996H24.0007V2.66663Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+															</svg>		
+													</a>
+													<!--/noindex-->
+												 </li>
+											</ul>
+									</div>
+								</div>
+								<div class="blog__btn btn">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M11.5 14.5996V9.4006L14.309 11.9996L11.5 14.5996ZM12.339 7.4526C11.841 6.9906 11.114 6.8706 10.488 7.1456C9.878 7.4116 9.5 7.9806 9.5 8.6296V15.3706C9.5 16.0196 9.878 16.5886 10.488 16.8546C10.711 16.9526 10.948 16.9996 11.181 16.9996C11.604 16.9996 12.019 16.8446 12.338 16.5486L15.98 13.1786C16.311 12.8726 16.5 12.4436 16.5 11.9996C16.5 11.5566 16.311 11.1266 15.98 10.8216L12.339 7.4526ZM12 20C7.589 20 4 16.411 4 12C4 7.589 7.589 4 12 4C16.411 4 20 7.589 20 12C20 16.411 16.411 20 12 20ZM12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2Z" fill="currentColor"/>
+										</svg>											
+									לצפייה בסרטון
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+			</section>
+			<!-- secrets end -->
+
+			<!-- banner -->
+			<div class="video-blog-banner" style="background: #75412E;">
+				<div class="container">
+					<div class="video-blog-banner__wrapper">
+						<div class="video-blog-banner__content">
+							<h3 class="video-blog-banner__title">
+								יופי נקי שואף לאיזון
+							</h3>
+							<p class="video-blog-banner__text">
+								אנחנו מאתגרים את המוסכמות של יופי נקי, כדי לייצר משהו חדשני – בעזרת נוסחאות בטיחותיות ויעילות, 
+שיגנו על העור שלכם ויגרמו לו להתחדש.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /banner -->
+
+		</main>
+		<!-- /main -->
+		<!-- footer -->
+		<footer class="footer">
+			<div class="container footer-container">
+				<div class="footer__wrapper">
+					<div class="footer__top">
+						<div class="footer__item">
+							<div class="footer__menu-acc menu-acc">
+								<div class="menu-acc__accordion ">
+									<h4 class="menu-acc__title footer__title">חנות</h4>
+									<ul class="menu-acc__list footer__menu">
+										<li class="menu-acc__item footer__menu-item">
+											<a href="" class="menu-acc__link footer__menu-link">
+												טיפוח פנים
+											</a>
+										</li>
+										<li class="menu-acc__item footer__menu-item">
+											<a href="" class="menu-acc__link footer__menu-link">
+												טיפוח שיער
+											</a>
+										</li>
+										<li class="menu-acc__item footer__menu-item">
+											<a href="" class="menu-acc__link footer__menu-link">
+												טריכולוגיה
+											</a>
+										</li>
+										<li class="menu-acc__item footer__menu-item">
+											<a href="" class="menu-acc__link footer__menu-link">
+												מיני קיטים
+											</a>
+										</li>
+										<li class="menu-acc__item footer__menu-item">
+											<a href="" class="menu-acc__link footer__menu-link">
+												בקשת ייעוץ
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="menu-acc__accordion ">
+									<h4 class="menu-acc__title footer__title">עזרה</h4>
+									<ul class="menu-acc__list footer__menu">
+										<li class="menu-acc__item footer__menu-item">
+											<a href="" class="menu-acc__link footer__menu-link">
+												חשבון שלי
+											</a>
+										</li>
+										<li class="menu-acc__item footer__menu-item">
+											<a href="" class="menu-acc__link footer__menu-link">
+												צרו קשר
+											</a>
+										</li>
+										<li class="menu-acc__item footer__menu-item">
+											<a href="" class="menu-acc__link footer__menu-link">
+												שאלות נפוצות
+											</a>
+										</li>
+										<li class="menu-acc__item footer__menu-item">
+											<a href="" class="menu-acc__link footer__menu-link">
+												חיפוש סלון קרוב
+											</a>
+										</li>
+										<li class="menu-acc__item footer__menu-item">
+											<a href="" class="menu-acc__link footer__menu-link">
+												שיתוף פעולה
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="menu-acc__accordion ">
+									<h4 class="menu-acc__title footer__title">אודותינו</h4>
+									<ul class="menu-acc__list footer__menu">
+										<li class="menu-acc__item footer__menu-item">
+											<a href="" class="menu-acc__link footer__menu-link">
+												סיפור שלנו
+											</a>
+										</li>
+										<li class="menu-acc__item footer__menu-item">
+											<a href="" class="menu-acc__link footer__menu-link">
+												בלוג
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="footer__item">
+							<h4 class="footer__title">
+								מחוייבות שלנו
+							</h4>
+							<ul class="footer__menu footer__menu">
+								<li class="footer__menu-item">
+									<!--noindex-->
+									<a href="mailto:info@gmail.com" class="footer__menu-link" target="_blank"
+										rel="noopener nofollow">
+										<span>דואר אלאקטרוני</span>
+										<img src="./img/footer/icon/connection/c-1.svg" alt="">
+									</a>
+									<!--/noindex-->
+								</li>
+								<li class="footer__menu-item">
+									<!--noindex-->
+									<a href="tel:+972556677545" class="footer__menu-link" target="_blank"
+										rel="noopener nofollow">
+										<span>טלפון</span>
+										<img src="./img/footer/icon/connection/c-3.svg" alt="">
+									</a>
+									<!--/noindex-->
+								</li>
+								<li class="footer__menu-item">
+									<!--noindex-->
+									<a href="https://api.whatsapp.com/send?phone=972556677545&text=" class="footer__menu-link"
+										target="_blank" rel="noopener nofollow">
+										<span>ווטס אפ</span>
+										<img src="./img/footer/icon/connection/c-4.svg" alt="">
+									</a>
+									<!--/noindex-->
+								</li>
+								<li class="footer__menu-item">
+									<!--noindex-->
+									<a href="https://www.google.com/maps" class="footer__menu-link" target="_blank"
+										rel="noopener nofollow">
+										<span>כתובת</span>
+										<img src="./img/footer/icon/connection/c-5.svg" alt="">
+									</a>
+									<!--/noindex-->
+								</li>
+							</ul>
+						</div>
+						<div class="footer__item">
+							<h4 class="footer__title">
+								חפשו אותנו
+							</h4>
+							<ul class="footer__menu footer__menu">
+								<li class="footer__menu-item">
+									<!--noindex-->
+									<a href="https://facebook.com/" class="footer__menu-link footer__link" target="_blank"
+										rel="noopener nofollow">
+										<span>Facebook</span>
+										<img src="./img/footer/icon/social/s-1.svg" alt="">
+									</a>
+									<!--/noindex-->
+								</li>
+								<li class="footer__menu-item">
+									<!--noindex-->
+									<a href="https://twitter.com/" class="footer__menu-link footer__link" target="_blank"
+										rel="noopener nofollow">
+										<span>Twitter</span>
+										<img src="./img/footer/icon/social/s-2.svg" alt="">
+									</a>
+									<!--/noindex-->
+								</li>
+								<li class="footer__menu-item">
+									<!--noindex-->
+									<a href="t.me/username" class="footer__menu-link footer__link" target="_blank"
+										rel="noopener nofollow">
+										<span>Telegram</span>
+										<img src="./img/footer/icon/social/s-3.svg" alt="">
+									</a>
+									<!--/noindex-->
+								</li>
+								<li class="footer__menu-item">
+									<!--noindex-->
+									<a href="https://www.instagram.com/" class="footer__menu-link footer__link" target="_blank"
+										rel="noopener nofollow">
+										<span>Instagram</span>
+										<img src="./img/footer/icon/social/s-4.svg" alt="">
+									</a>
+									<!--/noindex-->
+								</li>
+								<li class="footer__menu-item">
+									<!--noindex-->
+									<a href="https://www.youtube.com/" class="footer__menu-link footer__link" target="_blank"
+										rel="noopener nofollow">
+										<span>YouTube</span>
+										<img src="./img/footer/icon/social/s-5.svg" alt="">
+									</a>
+									<!--/noindex-->
+								</li>
+							</ul>
+						</div>
+						<div class="footer__item">
+							<div class="footer__label">
+								<h4 class="footer__title">
+									מחוייבות שלנו
+								</h4>
+								<ul class="footer__menu-icon menu-icon">
+									<li class="menu-icon__item icon-logo">
+										<!--noindex-->
+										<a href="" class="icon-logo__link" target="_blank" rel="noopener nofollow">
+											<img src="./img/footer/icon/long-icon.png" alt="">
+										</a>
+										<!--/noindex-->
+									</li>
+									<li class="menu-icon__item">
+										<!--noindex-->
+										<a href="" class="menu-icon__link" target="_blank" rel="noopener nofollow">
+											<img src="./img/footer/icon/i-4.svg" alt="">
+										</a>
+										<!--/noindex-->
+									</li>
+									<li class="menu-icon__item">
+										<!--noindex-->
+										<a href="" class="menu-icon__link" target="_blank" rel="noopener nofollow">
+											<img src="./img/footer/icon/i-3.svg" alt="">
+										</a>
+										<!--/noindex-->
+									</li>
+									<li class="menu-icon__item">
+										<!--noindex-->
+										<a href="" class="menu-icon__link" target="_blank" rel="noopener nofollow">
+											<img src="./img/footer/icon/i-2.svg" alt="">
+										</a>
+										<!--/noindex-->
+									</li>
+									<li class="menu-icon__item">
+										<!--noindex-->
+										<a href="" class="menu-icon__link" target="_blank" rel="noopener nofollow">
+											<img src="./img/footer/icon/i-1.svg" alt="">
+										</a>
+										<!--/noindex-->
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<div class="footer__text">
+							<a href="https://enter2web.co.il/" target=”_blank” rel=”noopener nofollow”>
+								<img src="./img/footer/red_logo.png" class="footer__bottom-logo" alt="">
+							</a>
+							<div class="footer__text-box">
+								<span>
+									powered by
+								</span>
+							</div>
+							<div class="footer__text-box">
+								<span>
+									Made with
+								</span>
+								<img src="./img/footer/Icon-favorite.png" alt="">
+								<span>
+									in Israel
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- /footer -->
+
+		<!-- btn scroll and chat (no active) -->
+		<ul class="menu-btns" id="menu-btns-fix">
+			<li class="menu-btns__item">
+				<a href="#body" class="menu-btns__link" id="scroll-top" target="_blank" rel="noopener nofollow">
+					<img src="./img/footer/Icon-arrow.svg" alt="">
+				</a>
+			</li>
+			<li class="menu-btns__item">
+				<a href="" class="menu-btns__link chat" target="_blank" rel="noopener nofollow">
+					<img src="./img/footer/icon-messege.svg" alt="">
+				</a>
+			</li>
+		</ul>
+		<!-- /btn scroll and chat (no active) -->
+
+		<!-- modal content -->
+
+		<!-- modal registration login password -->
+		<div class="modal">
+			<div class="modal__wrapper">
+				<div class="login modal-section">
+					<div class="container container-modal">
+						<img src="./img/header/cross.svg" class="cross-logo" alt="">
+						<div class="login__wrapper modal-section__wrapper">
+							<div class="login__item modal-section__item">
+								<picture>
+									<img src="./img/modal/login/bg-log.jpg" alt="">
+								</picture>
+							</div>
+
+							<div class="login__item login__item-active modal-section__item">
+								<div class="login__wrapper-form">
+									<h3 class="section__title-noborder login__title">
+										כניסה
+									</h3>
+									<form action="" method="post" id="login-form" class="login-form form">
+										<div class="input__inner login-input__inner">
+											<label for="email-login" class="form__label">דואר אלקטרוני</label>
+											<input type="email" name="email" class="form__input login-form__input email"
+												id="email-login" placeholder="info@gmail.com" required>
+										</div>
+										<div class="input__inner login-input__inner">
+											<label for="password" class="form__label">סיסמה</label>
+											<div class="input__content">
+												<input type="password" name="password"
+													class="form__input login-form__input password" id="password" placeholder="******"
+													required>
+												<img class="input__img btn-pass" onclick="togglePasswordVisibility('password')"
+													src="./img/modal/login/Iconeye.svg" alt="">
+											</div>
+										</div>
+										<button class="btn login-form__btn form__btn" type="submit">
+											להתחברות
+										</button>
+									</form>
+									<button type="button" class="forgot-pass open-pass login-link">
+										שכחת סיסמא?
+									</button>
+									<div class="registration-inner open-reg login-link">
+										עוד לא יצרת חשבון? <span class="registration-link">להרשמה</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="password__item modal-section__item">
+								<div class="login__wrapper-form password__wrapper-form">
+									<h3 class="section__title-noborder login__title">
+										כניסה
+									</h3>
+									<form action="" method="post" id="pass-form" class="login-form pass-form form">
+										<div class="input__inner">
+											<label for="passInput" class="form__label">סיסמה</label>
+											<div class="input__content">
+												<input type="password" name="password"
+													class="form__input password password-form__input login-form__input"
+													id="passInput" placeholder="******" required>
+												<img class="input__img btn-pass" onclick="togglePasswordVisibility('passInput')"
+													id="btn-pass" src="./img/modal/login/Iconeye.svg" alt="">
+											</div>
+										</div>
+										<button class="btn login-form__btn password-form__btn form__btn" type="submit">
+											להתחברות
+										</button>
+									</form>
+									<div class="registration-inner open-reg">
+										עוד לא יצרת חשבון? <span class="registration-link">להרשמה</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="registration__item registration modal-section__item">
+								<div class="registration__wrapper-form modal-section__form">
+									<h3 class="section__title-noborder registration__title ">
+										הרשמה
+									</h3>
+									<form action="" class="form-registration" method="post">
+										<div class="input__wrapper reg__wrapper">
+											<div class="input__inner reg-inner">
+												<label for="reg-name" class="form__label">י*שם פרטי</label>
+												<div class="input__content">
+													<input type="text" name="reg-name" class="form__input reg-input" id="reg-name"
+														placeholder="ילנה" required>
+												</div>
+											</div>
+											<div class="input__inner reg-inner">
+												<label for="reg-surname" class="form__label reg-label">*שם משפחה</label>
+												<div class="input__content reg-content">
+													<input type="text" name="reg-surname" class="form__input reg-input"
+														id="reg-surname" placeholder="אנדרייבה" required>
+												</div>
+											</div>
+											<div class="input__inner reg-inner">
+												<label for="reg-country" class="form__label reg-label">עיר</label>
+												<div class="input__content reg-content form-select-wrap">
+													<select class="form-select" id="reg-country">
+														<option data-display="תל-אביב">תל-אביב</option>
+														<option value="1">Some option</option>
+														<option value="2">Another option</option>
+														<option value="4">Potato</option>
+													</select>
+												</div>
+											</div>
+											<div class="input__inner reg-inner">
+												<label for="reg-sity" class="form__label reg-label">*מדינה</label>
+												<div class="input__content reg-content form-select-wrap">
+													<select class="form-select reg-input reg-input-select" id="reg-sity">
+														<option data-display="ישראל">ישראל</option>
+														<option value="1">Some option</option>
+														<option value="2">Another option</option>
+														<option value="4">Potato</option>
+													</select>
+												</div>
+											</div>
+											<div class="input__inner reg-inner">
+												<label for="numper-prod" class="form__label reg-label">*מספר משווק</label>
+												<div class="input__content reg-content form-select-wrap">
+													<select class="form-select reg-input reg-input-select" id="numper-prod">
+														<option data-display="111111">111111</option>
+														<option value="1">Some option</option>
+														<option value="2">Another option</option>
+														<option value="4">Potato</option>
+													</select>
+												</div>
+											</div>
+											<div class="input__inner reg-inner">
+												<label for="reg-phone" class="form__label reg-label">*מספר טלפון</label>
+												<div class="input__content reg-content form-select-wrap">
+													<input type="tel" name="reg-phone" class="form__input reg-input" id="reg-phone"
+														placeholder="+927--54-876-934" required>
+												</div>
+											</div>
+											<div class="input__inner reg-inner reg-inner-row">
+												<label for="reg-email" class="form__label reg-label">*דואר אלקטרוני</label>
+												<div class="input__content reg-content">
+													<select class="form-select reg-input reg-input-select" id="reg-email">
+														<option data-display="info@gmail.com">info@gmail.com</option>
+														<option value="1">Some option</option>
+														<option value="2">Another option</option>
+														<option value="4">Potato</option>
+													</select>
+												</div>
+											</div>
+											<div class="input__inner login-input__inner reg-inner">
+												<label for="password2" class="form__label reg-label">סיסמה</label>
+												<div class="input__content reg-content">
+													<input type="password" name="password"
+														class="form__input login-form__input password reg-input" id="password2"
+														placeholder="******" required>
+													<img class="input__img btn-pass" onclick="togglePasswordVisibility('password2')"
+														src="./img/modal/login/Iconeye.svg" alt="">
+												</div>
+											</div>
+											<div class="input__inner login-input__inner reg-inner">
+												<label for="passwordcopu" class="form__label reg-label">*אימות סיסמה</label>
+												<div class="input__content reg-content">
+													<input type="password" name="password"
+														class="form__input login-form__input password reg-input" id="passwordcopu"
+														placeholder="******" required>
+													<img class="input__img btn-pass"
+														onclick="togglePasswordVisibility('passwordcopu')"
+														src="./img/modal/login/Iconeye.svg" alt="">
+												</div>
+											</div>
+										</div>
+										<p class="form-text reg-text">
+											*שדות חובה למילוי
+										</p>
+										<button class="form__btn btn reg-btn" type="submit">
+											להרשמה
+										</button>
+									</form>
+									<div class="login-inner reg__text-inner">
+										כבר יש לך חשבון ?<span
+											class="registration-link login-link open-login reg-link">הכנסו</span>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /modal registration login password -->
+
+		<!-- search-modal -->
+		<div class="search-modal">
+			<div class="search-modal__wrapper">
+				<div class="search__inner">
+					<img src="./img/header/cross.svg" class="cross-search" alt="">
+					<div class="search">
+						<form action="" class="header__form-search search-modal__form">
+							<input id="search" class="form-search__input search-modal__input" type="text"
+								placeholder="חיפוש מוצר או טיפול">
+							<button class="search__btn search-modal__btn" type="button">
+								<img src="./img/header/search.png" class="search__img" alt="">
+							</button>
+							<ul class="search-menu">
+								<li class="search-menu__item">
+									<a href="" class="search-menu__link">
+										KERA LIQUID COCKTAIL
+									</a>
+								</li>
+								<li class="search-menu__item">
+									<a href="" class="search-menu__link">
+										BOOSTER FLUID
+									</a>
+								</li>
+								<li class="search-menu__item">
+									<a href="" class="search-menu__link">
+										KERA FLUID
+									</a>
+								</li>
+								<li class="search-menu__item">
+									<a href="" class="search-menu__link">
+										KERA LIQUID COCKTAIL
+									</a>
+								</li>
+								<li class="search-menu__item">
+									<a href="" class="search-menu__link">
+										<div class="search-menu__content">
+											<img src="img/products/1.jpg" alt="" class="search-menu__img">
+											<span>GLAZE-IT</span>
+										</div>
+									</a>
+								</li>
+								<li class="search-menu__item">
+									<a href="" class="search-menu__link">
+										<div class="search-menu__content">
+											<img src="img/products/1.jpg" alt="" class="search-menu__img">
+											<span>GLAZE-IT</span>
+										</div>
+									</a>
+								</li>
+								<li class="search-menu__item">
+									<a href="" class="search-menu__link">
+										<div class="search-menu__content">
+											<img src="img/products/1.jpg" alt="" class="search-menu__img">
+											<span>GLAZE-IT</span>
+										</div>
+									</a>
+								</li>
+								<li class="search-menu__item">
+									<a href="" class="search-menu__link">
+										<div class="search-menu__content">
+											<img src="img/products/1.jpg" alt="" class="search-menu__img">
+											<span>GLAZE-IT</span>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</form>
+					</div>
+					<h3 class="search-modal__title">
+						חיפוש מוצר לפי קטגוריה
+					</h3>
+					<div class="swiper search-modal__categories">
+						<ul class="search-modal-categories__list swiper-wrapper">
+							<li class="categories__item swiper-slide">
+								<img src="./img/categories/4.jpg" alt="" class="categories__img">
+								<div class="categories__content">
+									<p class="categories__title">
+										הטיפולים שלנו
+									</p>
+									<a href="" class="categories__btn btn search-modal__categories-btn">
+										גלי עוד
+									</a>
+								</div>
+							</li>
+							<li class="categories__item swiper-slide">
+								<img src="./img/categories/3.jpg" alt="" class="categories__img">
+								<div class="categories__content">
+									<p class="categories__title">
+										טיפוח השיער
+									</p>
+									<a href="" class="categories__btn btn search-modal__categories-btn">
+										גלי עוד
+									</a>
+								</div>
+							</li>
+							<li class="categories__item swiper-slide">
+								<img src="./img/categories/2.jpg" alt="" class="categories__img">
+								<div class="categories__content">
+									<p class="categories__title">
+										טריכולוגיה
+									</p>
+									<a href="" class="categories__btn btn search-modal__categories-btn">
+										גלי עוד
+									</a>
+								</div>
+							</li>
+							<li class="categories__item swiper-slide">
+								<img src="./img/categories/1.jpg" alt="" class="categories__img">
+								<div class="categories__content">
+									<p class="categories__title">
+										טיפוח העור
+									</p>
+									<a href="" class="categories__btn btn search-modal__categories-btn">
+										גלי עוד
+									</a>
+								</div>
+							</li>
+						</ul>
+						<button class="prev categories-prev prev-mob"></button>
+						<button class="next categories-next next-mob"></button>
+						<div class="swiper-pagination swiper-pagination-search"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /search-modal -->
+
+		<!-- basket and favorite-->
+		<div class="modal-cart">
+			<div class="modal-cart__wrapper">
+				<img src="./img/basket/close.png" class="close-basket close-modal-cart" alt="">
+				<div class="basket-modal__wrap modal-cart__wrap">
+					<div class="basket-modal__top-title">
+						<div class="basket-modal__title-mob">
+							<img src="./img/header/cross.svg" class="close-basket-mob" alt="">
+							<a href="">סל קניות</a>
+						</div>
+						<a href="" class="basket-modal__title">
+							ניקוי סל קניות
+						</a>
+					</div>
+					<div class="basket-modal__inner-top">
+						<div id="about2" class="nano-basket nano-modal-cart nano">
+							<div class="nano-content">
+								<div class="basket-products__wrapper">
+									<form action="" method="post" id="modal-cart__form">
+										<div class="prod-hor">
+											<div class="prod-hor__item">
+												<button type="button" class="remove-product remove-product-desk">
+													<img src="./img/basket/del.png" alt="">
+												</button>
+											</div>
+											<div class="prod-hor__item">
+												<div class="prod-hor__wrapper-img">
+													<a href="product-page.html"><img src="./img/products/2.jpg" alt=""
+															class="basket-product__img prod-hor__img"></a>
+													<a href="favorite.html" class="favorite-icon prod-hor__favorite">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd" clip-rule="evenodd"
+																d="M7.21956 6C6.35556 6 5.54556 6.334 4.93956 6.941C3.68156 8.201 3.68156 10.252 4.94056 11.514L11.9996 18.585L19.0596 11.514C20.3186 10.252 20.3186 8.201 19.0596 6.941C17.8476 5.726 15.7116 5.728 14.4996 6.941L12.7076 8.736C12.3316 9.113 11.6676 9.113 11.2916 8.736L9.49956 6.94C8.89356 6.334 8.08456 6 7.21956 6ZM11.9996 21C11.7346 21 11.4796 20.895 11.2926 20.706L3.52456 12.926C1.48856 10.886 1.48856 7.567 3.52456 5.527C4.50856 4.543 5.82056 4 7.21956 4C8.61856 4 9.93156 4.543 10.9146 5.527L11.9996 6.614L13.0846 5.528C14.0686 4.543 15.3806 4 16.7806 4C18.1786 4 19.4916 4.543 20.4746 5.527C22.5116 7.567 22.5116 10.886 20.4756 12.926L12.7076 20.707C12.5196 20.895 12.2656 21 11.9996 21Z"
+																fill="currentColor" />
+															<mask id="mask0_2687_849291" style="mask-type:luminance"
+																maskUnits="userSpaceOnUse" x="1" y="4" width="22" height="17">
+																<path fill-rule="evenodd" clip-rule="evenodd"
+																	d="M7.21956 6C6.35556 6 5.54556 6.334 4.93956 6.941C3.68156 8.201 3.68156 10.252 4.94056 11.514L11.9996 18.585L19.0596 11.514C20.3186 10.252 20.3186 8.201 19.0596 6.941C17.8476 5.726 15.7116 5.728 14.4996 6.941L12.7076 8.736C12.3316 9.113 11.6676 9.113 11.2916 8.736L9.49956 6.94C8.89356 6.334 8.08456 6 7.21956 6ZM11.9996 21C11.7346 21 11.4796 20.895 11.2926 20.706L3.52456 12.926C1.48856 10.886 1.48856 7.567 3.52456 5.527C4.50856 4.543 5.82056 4 7.21956 4C8.61856 4 9.93156 4.543 10.9146 5.527L11.9996 6.614L13.0846 5.528C14.0686 4.543 15.3806 4 16.7806 4C18.1786 4 19.4916 4.543 20.4746 5.527C22.5116 7.567 22.5116 10.886 20.4756 12.926L12.7076 20.707C12.5196 20.895 12.2656 21 11.9996 21Z"
+																	fill="currentColor" />
+															</mask>
+															<g mask="url(#mask0_2687_849291)">
+																<rect width="24" height="24" fill="currentColor" />
+															</g>
+														</svg>
+													</a>
+
+													<span class="basket-product__img-text prod-hor__img-text">טיפוח שיער</span>
+												</div>
+												<div class="prod-hor__item-inner">
+													<div class="prod-hor__desk">
+														<h4 class="product-cart__title prod-hor__title">
+															mini sorbi
+														</h4>
+														<p class="product-cart__ingr prod-hor__ingr">
+															סט נסיעות
+														</p>
+														<p class="product-cart__text prod-hor__text">
+															נסי את המוצרים על שיערך, על מנת לראות את התוצאה.
+														</p>
+													</div>
+													<div class="prod-hor__review-tag">
+														<div class="tag prod-hor__tag">
+															<div class="tag__btn tag-open prod-hor__btn prod-hor__tag-btn">
+																להיט העונה
+															</div>
+															<span class="tag-open">
+																<svg width="24" height="24" class="tag__arrow prod-hor__arrow"
+																	viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M11.9999 16C11.7719 16 11.5449 15.923 11.3599 15.768L5.35991 10.768C4.93591 10.415 4.87791 9.78398 5.23191 9.35998C5.58491 8.93598 6.21491 8.87898 6.63991 9.23198L12.0109 13.708L17.3729 9.39298C17.8029 9.04698 18.4329 9.11498 18.7789 9.54498C19.1249 9.97498 19.0569 10.604 18.6269 10.951L12.6269 15.779C12.4439 15.926 12.2219 16 11.9999 16Z"
+																		fill="#231F20" />
+																</svg>
+															</span>
+															<ul class="tag__menu tag-menu prod-hor__menu">
+																<li class="tag-menu__item">
+																	<p class="tag-menu__link tag__btn dark-tag">
+																		הקנייה הטובה
+																	</p>
+																</li>
+																<li class="tag-menu__item">
+																	<p class="tag-menu__link tag__btn grey-tag">
+																		הקנייה הטובה
+																	</p>
+																</li>
+															</ul>
+														</div>
+														<div class="reviews-cart prod-hor__reviews-cart">
+															<p class="reviews-cart__link prod-hor__reviews-link offer-product__link">
+																<span class="comments-value">38</span> <span>תגובות</span>
+															</p>
+															<div class="stars-wrapper">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="prod-hor__item">
+												<div class="product-cart__settings prod-hor__settings">
+													<div class="price-wrapper prod-hor__price-wrapper">
+														<span class="price-new">
+															מחיר
+														</span>
+														<span class="price-old">
+															מחיר
+														</span>
+													</div>
+													<div class="volume dropdown prod-hor__dropdown">
+														<div class="volume-open prod-hor__volume-open">
+															<img src="./img/arrow.svg" alt="">
+														</div>
+														<span class="volume-open prod-hor__volume-text">75 ml</span>
+														<ul class="volume__menu volume-menu dropdown-menu prod-hor__volume-menu">
+															<li class="volume-menu__item dropdown-menu__item volume-active">
+																75 ml
+															</li>
+															<li class="tag-menu__item dropdown-menu__item ">
+																100 ml
+															</li>
+														</ul>
+													</div>
+													<div class="basket-product__add-prod prod-hor__add-prod">
+														<span class="basket-product__remove remove-cart basket-product__btn-add">
+															<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path fill-rule="evenodd" clip-rule="evenodd"
+																	d="M15.8334 11.3334H4.16671C3.70671 11.3334 3.33337 10.9609 3.33337 10.5001C3.33337 10.0392 3.70671 9.66675 4.16671 9.66675H15.8334C16.2942 9.66675 16.6667 10.0392 16.6667 10.5001C16.6667 10.9609 16.2942 11.3334 15.8334 11.3334Z"
+																	fill="#231F20" />
+																<mask id="mask0_2372_76502" style="mask-type:luminance"
+																	maskUnits="userSpaceOnUse" x="3" y="9" width="14" height="3">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M15.8334 11.3334H4.16671C3.70671 11.3334 3.33337 10.9609 3.33337 10.5001C3.33337 10.0392 3.70671 9.66675 4.16671 9.66675H15.8334C16.2942 9.66675 16.6667 10.0392 16.6667 10.5001C16.6667 10.9609 16.2942 11.3334 15.8334 11.3334Z"
+																		fill="white" />
+																</mask>
+																<g mask="url(#mask0_2372_76502)">
+																	<rect y="0.5" width="20" height="20" fill="#0D1C2E" />
+																</g>
+															</svg>
+														</span>
+														<span class="basket-product__value-cart value-cart">1</span>
+														<span class="basket-product__add add-cart basket-product__btn-add">
+															<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path fill-rule="evenodd" clip-rule="evenodd"
+																	d="M15.8334 9.66659H10.8334V4.66659C10.8334 4.20575 10.46 3.83325 10 3.83325C9.54004 3.83325 9.16671 4.20575 9.16671 4.66659V9.66659H4.16671C3.70671 9.66659 3.33337 10.0391 3.33337 10.4999C3.33337 10.9608 3.70671 11.3333 4.16671 11.3333H9.16671V16.3333C9.16671 16.7941 9.54004 17.1666 10 17.1666C10.46 17.1666 10.8334 16.7941 10.8334 16.3333V11.3333H15.8334C16.2934 11.3333 16.6667 10.9608 16.6667 10.4999C16.6667 10.0391 16.2934 9.66659 15.8334 9.66659"
+																	fill="#231F20" />
+																<mask id="mask0_2372_76493" style="mask-type:luminance"
+																	maskUnits="userSpaceOnUse" x="3" y="3" width="14" height="15">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M15.8334 9.66659H10.8334V4.66659C10.8334 4.20575 10.46 3.83325 10 3.83325C9.54004 3.83325 9.16671 4.20575 9.16671 4.66659V9.66659H4.16671C3.70671 9.66659 3.33337 10.0391 3.33337 10.4999C3.33337 10.9608 3.70671 11.3333 4.16671 11.3333H9.16671V16.3333C9.16671 16.7941 9.54004 17.1666 10 17.1666C10.46 17.1666 10.8334 16.7941 10.8334 16.3333V11.3333H15.8334C16.2934 11.3333 16.6667 10.9608 16.6667 10.4999C16.6667 10.0391 16.2934 9.66659 15.8334 9.66659"
+																		fill="white" />
+																</mask>
+																<g mask="url(#mask0_2372_76493)">
+																	<rect y="0.5" width="20" height="20" fill="#0D1C2E" />
+																</g>
+															</svg>
+														</span>
+													</div>
+													<button type="button" class="remove-product">
+														<img src="./img/basket/del.png" alt="">
+													</button>
+												</div>
+											</div>
+										</div>
+										<div class="prod-hor">
+											<div class="prod-hor__item">
+												<button type="button" class="remove-product remove-product-desk">
+													<img src="./img/basket/del.png" alt="">
+												</button>
+											</div>
+											<div class="prod-hor__item">
+												<div class="prod-hor__wrapper-img">
+													<a href="product-page.html"><img src="./img/products/2.jpg" alt=""
+															class="basket-product__img prod-hor__img"></a>
+													<a href="favorite.html" class="favorite-icon prod-hor__favorite">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd" clip-rule="evenodd"
+																d="M7.21956 6C6.35556 6 5.54556 6.334 4.93956 6.941C3.68156 8.201 3.68156 10.252 4.94056 11.514L11.9996 18.585L19.0596 11.514C20.3186 10.252 20.3186 8.201 19.0596 6.941C17.8476 5.726 15.7116 5.728 14.4996 6.941L12.7076 8.736C12.3316 9.113 11.6676 9.113 11.2916 8.736L9.49956 6.94C8.89356 6.334 8.08456 6 7.21956 6ZM11.9996 21C11.7346 21 11.4796 20.895 11.2926 20.706L3.52456 12.926C1.48856 10.886 1.48856 7.567 3.52456 5.527C4.50856 4.543 5.82056 4 7.21956 4C8.61856 4 9.93156 4.543 10.9146 5.527L11.9996 6.614L13.0846 5.528C14.0686 4.543 15.3806 4 16.7806 4C18.1786 4 19.4916 4.543 20.4746 5.527C22.5116 7.567 22.5116 10.886 20.4756 12.926L12.7076 20.707C12.5196 20.895 12.2656 21 11.9996 21Z"
+																fill="currentColor" />
+															<mask id="mask0_2687_849296" style="mask-type:luminance"
+																maskUnits="userSpaceOnUse" x="1" y="4" width="22" height="17">
+																<path fill-rule="evenodd" clip-rule="evenodd"
+																	d="M7.21956 6C6.35556 6 5.54556 6.334 4.93956 6.941C3.68156 8.201 3.68156 10.252 4.94056 11.514L11.9996 18.585L19.0596 11.514C20.3186 10.252 20.3186 8.201 19.0596 6.941C17.8476 5.726 15.7116 5.728 14.4996 6.941L12.7076 8.736C12.3316 9.113 11.6676 9.113 11.2916 8.736L9.49956 6.94C8.89356 6.334 8.08456 6 7.21956 6ZM11.9996 21C11.7346 21 11.4796 20.895 11.2926 20.706L3.52456 12.926C1.48856 10.886 1.48856 7.567 3.52456 5.527C4.50856 4.543 5.82056 4 7.21956 4C8.61856 4 9.93156 4.543 10.9146 5.527L11.9996 6.614L13.0846 5.528C14.0686 4.543 15.3806 4 16.7806 4C18.1786 4 19.4916 4.543 20.4746 5.527C22.5116 7.567 22.5116 10.886 20.4756 12.926L12.7076 20.707C12.5196 20.895 12.2656 21 11.9996 21Z"
+																	fill="currentColor" />
+															</mask>
+															<g mask="url(#mask0_2687_849296)">
+																<rect width="24" height="24" fill="currentColor" />
+															</g>
+														</svg>
+													</a>
+													<span class="basket-product__img-text prod-hor__img-text">טיפוח שיער</span>
+												</div>
+												<div class="prod-hor__item-inner">
+													<div class="prod-hor__desk">
+														<h4 class="product-cart__title prod-hor__title">
+															mini sorbi
+														</h4>
+														<p class="product-cart__ingr prod-hor__ingr">
+															סט נסיעות
+														</p>
+														<p class="product-cart__text prod-hor__text">
+															נסי את המוצרים על שיערך, על מנת לראות את התוצאה.
+														</p>
+													</div>
+													<div class="prod-hor__review-tag">
+														<div class="tag prod-hor__tag">
+															<div class="tag__btn tag-open prod-hor__btn prod-hor__tag-btn">
+																להיט העונה
+															</div>
+															<span class="tag-open">
+																<svg width="24" height="24" class="tag__arrow prod-hor__arrow"
+																	viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M11.9999 16C11.7719 16 11.5449 15.923 11.3599 15.768L5.35991 10.768C4.93591 10.415 4.87791 9.78398 5.23191 9.35998C5.58491 8.93598 6.21491 8.87898 6.63991 9.23198L12.0109 13.708L17.3729 9.39298C17.8029 9.04698 18.4329 9.11498 18.7789 9.54498C19.1249 9.97498 19.0569 10.604 18.6269 10.951L12.6269 15.779C12.4439 15.926 12.2219 16 11.9999 16Z"
+																		fill="#231F20" />
+																</svg>
+															</span>
+															<ul class="tag__menu tag-menu prod-hor__menu">
+																<li class="tag-menu__item">
+																	<p class="tag-menu__link tag__btn dark-tag">
+																		הקנייה הטובה
+																	</p>
+																</li>
+																<li class="tag-menu__item">
+																	<p class="tag-menu__link tag__btn grey-tag">
+																		הקנייה הטובה
+																	</p>
+																</li>
+															</ul>
+														</div>
+														<div class="reviews-cart prod-hor__reviews-cart">
+															<p class="reviews-cart__link prod-hor__reviews-link offer-product__link">
+																<span class="comments-value">38</span> <span>תגובות</span>
+															</p>
+															<div class="stars-wrapper">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="prod-hor__item">
+												<div class="product-cart__settings prod-hor__settings">
+													<div class="price-wrapper prod-hor__price-wrapper">
+														<span class="price-new">
+															מחיר
+														</span>
+														<span class="price-old">
+															מחיר
+														</span>
+													</div>
+													<div class="volume dropdown prod-hor__dropdown">
+														<div class="volume-open prod-hor__volume-open">
+															<img src="./img/arrow.svg" alt="">
+														</div>
+														<span class="volume-open prod-hor__volume-text">75 ml</span>
+														<ul class="volume__menu volume-menu dropdown-menu prod-hor__volume-menu">
+															<li class="volume-menu__item dropdown-menu__item volume-active">
+																75 ml
+															</li>
+															<li class="tag-menu__item dropdown-menu__item ">
+																100 ml
+															</li>
+														</ul>
+													</div>
+													<div class="basket-product__add-prod prod-hor__add-prod">
+														<span class="basket-product__remove remove-cart basket-product__btn-add">
+															<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path fill-rule="evenodd" clip-rule="evenodd"
+																	d="M15.8334 11.3334H4.16671C3.70671 11.3334 3.33337 10.9609 3.33337 10.5001C3.33337 10.0392 3.70671 9.66675 4.16671 9.66675H15.8334C16.2942 9.66675 16.6667 10.0392 16.6667 10.5001C16.6667 10.9609 16.2942 11.3334 15.8334 11.3334Z"
+																	fill="#231F20" />
+																<mask id="mask0_2372_76502" style="mask-type:luminance"
+																	maskUnits="userSpaceOnUse" x="3" y="9" width="14" height="3">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M15.8334 11.3334H4.16671C3.70671 11.3334 3.33337 10.9609 3.33337 10.5001C3.33337 10.0392 3.70671 9.66675 4.16671 9.66675H15.8334C16.2942 9.66675 16.6667 10.0392 16.6667 10.5001C16.6667 10.9609 16.2942 11.3334 15.8334 11.3334Z"
+																		fill="white" />
+																</mask>
+																<g mask="url(#mask0_2372_76502)">
+																	<rect y="0.5" width="20" height="20" fill="#0D1C2E" />
+																</g>
+															</svg>
+														</span>
+														<span class="basket-product__value-cart value-cart">1</span>
+														<span class="basket-product__add add-cart basket-product__btn-add">
+															<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path fill-rule="evenodd" clip-rule="evenodd"
+																	d="M15.8334 9.66659H10.8334V4.66659C10.8334 4.20575 10.46 3.83325 10 3.83325C9.54004 3.83325 9.16671 4.20575 9.16671 4.66659V9.66659H4.16671C3.70671 9.66659 3.33337 10.0391 3.33337 10.4999C3.33337 10.9608 3.70671 11.3333 4.16671 11.3333H9.16671V16.3333C9.16671 16.7941 9.54004 17.1666 10 17.1666C10.46 17.1666 10.8334 16.7941 10.8334 16.3333V11.3333H15.8334C16.2934 11.3333 16.6667 10.9608 16.6667 10.4999C16.6667 10.0391 16.2934 9.66659 15.8334 9.66659"
+																	fill="#231F20" />
+																<mask id="mask0_2372_76493" style="mask-type:luminance"
+																	maskUnits="userSpaceOnUse" x="3" y="3" width="14" height="15">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M15.8334 9.66659H10.8334V4.66659C10.8334 4.20575 10.46 3.83325 10 3.83325C9.54004 3.83325 9.16671 4.20575 9.16671 4.66659V9.66659H4.16671C3.70671 9.66659 3.33337 10.0391 3.33337 10.4999C3.33337 10.9608 3.70671 11.3333 4.16671 11.3333H9.16671V16.3333C9.16671 16.7941 9.54004 17.1666 10 17.1666C10.46 17.1666 10.8334 16.7941 10.8334 16.3333V11.3333H15.8334C16.2934 11.3333 16.6667 10.9608 16.6667 10.4999C16.6667 10.0391 16.2934 9.66659 15.8334 9.66659"
+																		fill="white" />
+																</mask>
+																<g mask="url(#mask0_2372_76493)">
+																	<rect y="0.5" width="20" height="20" fill="#0D1C2E" />
+																</g>
+															</svg>
+														</span>
+													</div>
+													<button type="button" class="remove-product">
+														<img src="./img/basket/del.png" alt="">
+													</button>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="basket-modal__inner-bottom">
+						<div class="all-prod__wrapper">
+							<p class="all-prod__text">
+								סה״כ לתשלום <span class="all-prod__price">500</span><span class="currency">₪</span>
+							</p>
+							<p class="all-prod__text">
+								מוצרים בסל קניות <span class="all-prod__value">2</span>
+							</p>
+						</div>
+						<button type="button" class="basket-wrapper__btn basket-wrapper__btn close-basket-btn btn">
+							להמשך קניות
+						</button>
+						<a href="cart.html"  class="basket-wrapper__btn open-basket-page btn">
+							לתשלום ושליחת הזמנה
+						</a>
+					</div>
+				</div>
+				<div class="favorite-modal__wrap modal-cart__wrap">
+					<div class="basket-modal__top-title">
+						<div class="basket-modal__title-mob">
+							<img src="./img/header/cross.svg" class="close-basket-mob" alt="">
+						</div>
+						<div class="basket-modal__title favorite-modal__title">
+							ניקוי סל קניות
+						</div>
+					</div>
+					<div class="modal-cart__inner-top">
+						<div id="about" class="nano-modal-cart nano-favorite nano">
+							<div class="nano-content favorite-modal__nano-content">
+								<div class="basket-products__wrapper">
+									<form action="" method="post" id="modal-cart__form">
+										<div class="prod-hor">
+											<div class="prod-hor__item">
+												<button type="button" class="remove-product remove-product-desk">
+													<img src="./img/basket/del.png" alt="">
+												</button>
+											</div>
+											<div class="prod-hor__item">
+												<div class="prod-hor__wrapper-img">
+													<a href="product-page.html"><img src="./img/products/2.jpg" alt=""
+															class="basket-product__img prod-hor__img"></a>
+													<a href="favorite.html" class="favorite-icon prod-hor__favorite">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd" clip-rule="evenodd"
+																d="M7.21956 6C6.35556 6 5.54556 6.334 4.93956 6.941C3.68156 8.201 3.68156 10.252 4.94056 11.514L11.9996 18.585L19.0596 11.514C20.3186 10.252 20.3186 8.201 19.0596 6.941C17.8476 5.726 15.7116 5.728 14.4996 6.941L12.7076 8.736C12.3316 9.113 11.6676 9.113 11.2916 8.736L9.49956 6.94C8.89356 6.334 8.08456 6 7.21956 6ZM11.9996 21C11.7346 21 11.4796 20.895 11.2926 20.706L3.52456 12.926C1.48856 10.886 1.48856 7.567 3.52456 5.527C4.50856 4.543 5.82056 4 7.21956 4C8.61856 4 9.93156 4.543 10.9146 5.527L11.9996 6.614L13.0846 5.528C14.0686 4.543 15.3806 4 16.7806 4C18.1786 4 19.4916 4.543 20.4746 5.527C22.5116 7.567 22.5116 10.886 20.4756 12.926L12.7076 20.707C12.5196 20.895 12.2656 21 11.9996 21Z"
+																fill="currentColor" />
+															<mask id="mask0_2687_849295" style="mask-type:luminance"
+																maskUnits="userSpaceOnUse" x="1" y="4" width="22" height="17">
+																<path fill-rule="evenodd" clip-rule="evenodd"
+																	d="M7.21956 6C6.35556 6 5.54556 6.334 4.93956 6.941C3.68156 8.201 3.68156 10.252 4.94056 11.514L11.9996 18.585L19.0596 11.514C20.3186 10.252 20.3186 8.201 19.0596 6.941C17.8476 5.726 15.7116 5.728 14.4996 6.941L12.7076 8.736C12.3316 9.113 11.6676 9.113 11.2916 8.736L9.49956 6.94C8.89356 6.334 8.08456 6 7.21956 6ZM11.9996 21C11.7346 21 11.4796 20.895 11.2926 20.706L3.52456 12.926C1.48856 10.886 1.48856 7.567 3.52456 5.527C4.50856 4.543 5.82056 4 7.21956 4C8.61856 4 9.93156 4.543 10.9146 5.527L11.9996 6.614L13.0846 5.528C14.0686 4.543 15.3806 4 16.7806 4C18.1786 4 19.4916 4.543 20.4746 5.527C22.5116 7.567 22.5116 10.886 20.4756 12.926L12.7076 20.707C12.5196 20.895 12.2656 21 11.9996 21Z"
+																	fill="currentColor" />
+															</mask>
+															<g mask="url(#mask0_2687_849295)">
+																<rect width="24" height="24" fill="currentColor" />
+															</g>
+														</svg>
+													</a>
+													<span class="basket-product__img-text prod-hor__img-text">טיפוח שיער</span>
+												</div>
+												<div class="prod-hor__item-inner">
+													<div class="prod-hor__desk favorite-product__desk">
+														<h4 class="product-cart__title prod-hor__title">
+															mini sorbi
+														</h4>
+														<p class="product-cart__ingr prod-hor__ingr">
+															סט נסיעות
+														</p>
+														<p class="product-cart__text prod-hor__text">
+															נסי את המוצרים על שיערך, על מנת לראות את התוצאה.
+														</p>
+													</div>
+													<div class="prod-hor__review-tag">
+														<div class="tag prod-hor__tag">
+															<div class="tag__btn tag-open prod-hor__btn prod-hor__tag-btn">
+																להיט העונה
+															</div>
+															<span class="tag-open">
+																<svg width="24" height="24" class="tag__arrow prod-hor__arrow"
+																	viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M11.9999 16C11.7719 16 11.5449 15.923 11.3599 15.768L5.35991 10.768C4.93591 10.415 4.87791 9.78398 5.23191 9.35998C5.58491 8.93598 6.21491 8.87898 6.63991 9.23198L12.0109 13.708L17.3729 9.39298C17.8029 9.04698 18.4329 9.11498 18.7789 9.54498C19.1249 9.97498 19.0569 10.604 18.6269 10.951L12.6269 15.779C12.4439 15.926 12.2219 16 11.9999 16Z"
+																		fill="#231F20" />
+																</svg>
+															</span>
+															<ul class="tag__menu tag-menu prod-hor__menu">
+																<li class="tag-menu__item">
+																	<p class="tag-menu__link tag__btn dark-tag">
+																		הקנייה הטובה
+																	</p>
+																</li>
+																<li class="tag-menu__item">
+																	<p class="tag-menu__link tag__btn grey-tag">
+																		הקנייה הטובה
+																	</p>
+																</li>
+															</ul>
+														</div>
+														<div class="reviews-cart prod-hor__reviews-cart">
+															<p class="reviews-cart__link prod-hor__reviews-link offer-product__link">
+																<span class="comments-value">38</span> <span>תגובות</span>
+															</p>
+															<div class="stars-wrapper">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="prod-hor__item">
+												<div class="product-cart__settings prod-hor__settings favorite-product__settings">
+													<div class="price-wrapper prod-hor__price-wrapper">
+														<span class="price-new">
+															מחיר
+														</span>
+														<span class="price-old">
+															מחיר
+														</span>
+													</div>
+													<div class="volume dropdown prod-hor__dropdown">
+														<div class="volume-open prod-hor__volume-open">
+															<img src="./img/arrow.svg" alt="">
+														</div>
+														<span class="volume-open prod-hor__volume-text volume-text">75 ml</span>
+														<ul class="volume__menu volume-menu dropdown-menu prod-hor__volume-menu">
+															<li class="volume-menu__item dropdown-menu__item volume-active">
+																75 ml
+															</li>
+															<li class="tag-menu__item dropdown-menu__item ">
+																100 ml
+															</li>
+														</ul>
+													</div>
+													<div class="prod-hor__add-prod favorite-product__add-prod">
+														<button type="button" class="favorite-product__add-basket">
+															הוספה לסל
+														</button>
+														<span class="prod-hor__btn-add remove-cart favorite-product__btn-add">
+															<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path fill-rule="evenodd" clip-rule="evenodd"
+																	d="M15.8334 11.3334H4.16671C3.70671 11.3334 3.33337 10.9609 3.33337 10.5001C3.33337 10.0392 3.70671 9.66675 4.16671 9.66675H15.8334C16.2942 9.66675 16.6667 10.0392 16.6667 10.5001C16.6667 10.9609 16.2942 11.3334 15.8334 11.3334Z"
+																	fill="#ffffff" />
+																<mask id="mask0_2372_76502" style="mask-type:luminance"
+																	maskUnits="userSpaceOnUse" x="3" y="9" width="14" height="3">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M15.8334 11.3334H4.16671C3.70671 11.3334 3.33337 10.9609 3.33337 10.5001C3.33337 10.0392 3.70671 9.66675 4.16671 9.66675H15.8334C16.2942 9.66675 16.6667 10.0392 16.6667 10.5001C16.6667 10.9609 16.2942 11.3334 15.8334 11.3334Z"
+																		fill="white" />
+																</mask>
+																<g mask="url(#mask0_2372_76502)">
+																	<rect y="0.5" width="20" height="20" fill="" />
+																</g>
+															</svg>
+														</span>
+														<span
+															class="prod-hor__value-car value-cart favorite-product__value-car">1</span>
+														<span class="prod-hor__btn-add add-cart favorite-product__btn-add">
+															<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path fill-rule="evenodd" clip-rule="evenodd"
+																	d="M15.8334 9.66659H10.8334V4.66659C10.8334 4.20575 10.46 3.83325 10 3.83325C9.54004 3.83325 9.16671 4.20575 9.16671 4.66659V9.66659H4.16671C3.70671 9.66659 3.33337 10.0391 3.33337 10.4999C3.33337 10.9608 3.70671 11.3333 4.16671 11.3333H9.16671V16.3333C9.16671 16.7941 9.54004 17.1666 10 17.1666C10.46 17.1666 10.8334 16.7941 10.8334 16.3333V11.3333H15.8334C16.2934 11.3333 16.6667 10.9608 16.6667 10.4999C16.6667 10.0391 16.2934 9.66659 15.8334 9.66659"
+																	fill="#ffffff" />
+																<mask id="mask0_2372_76493" style="mask-type:luminance"
+																	maskUnits="userSpaceOnUse" x="3" y="3" width="14" height="15">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M15.8334 9.66659H10.8334V4.66659C10.8334 4.20575 10.46 3.83325 10 3.83325C9.54004 3.83325 9.16671 4.20575 9.16671 4.66659V9.66659H4.16671C3.70671 9.66659 3.33337 10.0391 3.33337 10.4999C3.33337 10.9608 3.70671 11.3333 4.16671 11.3333H9.16671V16.3333C9.16671 16.7941 9.54004 17.1666 10 17.1666C10.46 17.1666 10.8334 16.7941 10.8334 16.3333V11.3333H15.8334C16.2934 11.3333 16.6667 10.9608 16.6667 10.4999C16.6667 10.0391 16.2934 9.66659 15.8334 9.66659"
+																		fill="white" />
+																</mask>
+																<g mask="url(#mask0_2372_76493)">
+																	<rect y="0.5" width="20" height="20" fill="" />
+																</g>
+															</svg>
+														</span>
+													</div>
+													<button type="button" class="remove-product">
+														<img src="./img/basket/del.png" alt="">
+													</button>
+												</div>
+											</div>
+										</div>
+										<div class="prod-hor">
+											<div class="prod-hor__item">
+												<button type="button" class="remove-product remove-product-desk">
+													<img src="./img/basket/del.png" alt="">
+												</button>
+											</div>
+											<div class="prod-hor__item">
+												<div class="prod-hor__wrapper-img">
+													<a href="product-page.html"><img src="./img/products/2.jpg" alt=""
+															class="basket-product__img prod-hor__img"></a>
+													<a href="favorite.html" class="favorite-icon prod-hor__favorite">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd" clip-rule="evenodd"
+																d="M7.21956 6C6.35556 6 5.54556 6.334 4.93956 6.941C3.68156 8.201 3.68156 10.252 4.94056 11.514L11.9996 18.585L19.0596 11.514C20.3186 10.252 20.3186 8.201 19.0596 6.941C17.8476 5.726 15.7116 5.728 14.4996 6.941L12.7076 8.736C12.3316 9.113 11.6676 9.113 11.2916 8.736L9.49956 6.94C8.89356 6.334 8.08456 6 7.21956 6ZM11.9996 21C11.7346 21 11.4796 20.895 11.2926 20.706L3.52456 12.926C1.48856 10.886 1.48856 7.567 3.52456 5.527C4.50856 4.543 5.82056 4 7.21956 4C8.61856 4 9.93156 4.543 10.9146 5.527L11.9996 6.614L13.0846 5.528C14.0686 4.543 15.3806 4 16.7806 4C18.1786 4 19.4916 4.543 20.4746 5.527C22.5116 7.567 22.5116 10.886 20.4756 12.926L12.7076 20.707C12.5196 20.895 12.2656 21 11.9996 21Z"
+																fill="currentColor" />
+															<mask id="mask0_2687_849294" style="mask-type:luminance"
+																maskUnits="userSpaceOnUse" x="1" y="4" width="22" height="17">
+																<path fill-rule="evenodd" clip-rule="evenodd"
+																	d="M7.21956 6C6.35556 6 5.54556 6.334 4.93956 6.941C3.68156 8.201 3.68156 10.252 4.94056 11.514L11.9996 18.585L19.0596 11.514C20.3186 10.252 20.3186 8.201 19.0596 6.941C17.8476 5.726 15.7116 5.728 14.4996 6.941L12.7076 8.736C12.3316 9.113 11.6676 9.113 11.2916 8.736L9.49956 6.94C8.89356 6.334 8.08456 6 7.21956 6ZM11.9996 21C11.7346 21 11.4796 20.895 11.2926 20.706L3.52456 12.926C1.48856 10.886 1.48856 7.567 3.52456 5.527C4.50856 4.543 5.82056 4 7.21956 4C8.61856 4 9.93156 4.543 10.9146 5.527L11.9996 6.614L13.0846 5.528C14.0686 4.543 15.3806 4 16.7806 4C18.1786 4 19.4916 4.543 20.4746 5.527C22.5116 7.567 22.5116 10.886 20.4756 12.926L12.7076 20.707C12.5196 20.895 12.2656 21 11.9996 21Z"
+																	fill="currentColor" />
+															</mask>
+															<g mask="url(#mask0_2687_849294)">
+																<rect width="24" height="24" fill="currentColor" />
+															</g>
+														</svg>
+													</a>
+													<span class="basket-product__img-text prod-hor__img-text">טיפוח שיער</span>
+												</div>
+												<div class="prod-hor__item-inner">
+													<div class="prod-hor__desk favorite-product__desk">
+														<h4 class="product-cart__title prod-hor__title">
+															mini sorbi
+														</h4>
+														<p class="product-cart__ingr prod-hor__ingr">
+															סט נסיעות
+														</p>
+														<p class="product-cart__text prod-hor__text">
+															נסי את המוצרים על שיערך, על מנת לראות את התוצאה.
+														</p>
+													</div>
+													<div class="prod-hor__review-tag">
+														<div class="tag prod-hor__tag">
+															<div class="tag__btn tag-open prod-hor__btn prod-hor__tag-btn">
+																להיט העונה
+															</div>
+															<span class="tag-open">
+																<svg width="24" height="24" class="tag__arrow prod-hor__arrow"
+																	viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M11.9999 16C11.7719 16 11.5449 15.923 11.3599 15.768L5.35991 10.768C4.93591 10.415 4.87791 9.78398 5.23191 9.35998C5.58491 8.93598 6.21491 8.87898 6.63991 9.23198L12.0109 13.708L17.3729 9.39298C17.8029 9.04698 18.4329 9.11498 18.7789 9.54498C19.1249 9.97498 19.0569 10.604 18.6269 10.951L12.6269 15.779C12.4439 15.926 12.2219 16 11.9999 16Z"
+																		fill="#231F20" />
+																</svg>
+															</span>
+															<ul class="tag__menu tag-menu prod-hor__menu">
+																<li class="tag-menu__item">
+																	<p class="tag-menu__link tag__btn dark-tag">
+																		הקנייה הטובה
+																	</p>
+																</li>
+																<li class="tag-menu__item">
+																	<p class="tag-menu__link tag__btn grey-tag">
+																		הקנייה הטובה
+																	</p>
+																</li>
+															</ul>
+														</div>
+														<div class="reviews-cart prod-hor__reviews-cart">
+															<p class="reviews-cart__link prod-hor__reviews-link offer-product__link">
+																<span class="comments-value">38</span> <span>תגובות</span>
+															</p>
+															<div class="stars-wrapper">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="prod-hor__item">
+												<div class="product-cart__settings prod-hor__settings favorite-product__settings">
+													<div class="price-wrapper prod-hor__price-wrapper">
+														<span class="price-new">
+															מחיר
+														</span>
+														<span class="price-old">
+															מחיר
+														</span>
+													</div>
+													<div class="volume dropdown prod-hor__dropdown">
+														<div class="volume-open prod-hor__volume-open">
+															<img src="./img/arrow.svg" alt="">
+														</div>
+														<span class="volume-open prod-hor__volume-text">75 ml</span>
+														<ul class="volume__menu volume-menu dropdown-menu prod-hor__volume-menu">
+															<li class="volume-menu__item dropdown-menu__item volume-active">
+																75 ml
+															</li>
+															<li class="tag-menu__item dropdown-menu__item ">
+																100 ml
+															</li>
+														</ul>
+													</div>
+													<div class="prod-hor__add-prod favorite-product__add-prod">
+														<button type="button" class="favorite-product__add-basket">
+															הוספה לסל
+														</button>
+														<span class="prod-hor__btn-add remove-cart favorite-product__btn-add">
+															<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path fill-rule="evenodd" clip-rule="evenodd"
+																	d="M15.8334 11.3334H4.16671C3.70671 11.3334 3.33337 10.9609 3.33337 10.5001C3.33337 10.0392 3.70671 9.66675 4.16671 9.66675H15.8334C16.2942 9.66675 16.6667 10.0392 16.6667 10.5001C16.6667 10.9609 16.2942 11.3334 15.8334 11.3334Z"
+																	fill="#ffffff" />
+																<mask id="mask0_2372_76502" style="mask-type:luminance"
+																	maskUnits="userSpaceOnUse" x="3" y="9" width="14" height="3">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M15.8334 11.3334H4.16671C3.70671 11.3334 3.33337 10.9609 3.33337 10.5001C3.33337 10.0392 3.70671 9.66675 4.16671 9.66675H15.8334C16.2942 9.66675 16.6667 10.0392 16.6667 10.5001C16.6667 10.9609 16.2942 11.3334 15.8334 11.3334Z"
+																		fill="white" />
+																</mask>
+																<g mask="url(#mask0_2372_76502)">
+																	<rect y="0.5" width="20" height="20" fill="" />
+																</g>
+															</svg>
+														</span>
+														<span
+															class="prod-hor__value-car value-cart favorite-product__value-car">1</span>
+														<span class="prod-hor__btn-add add-cart favorite-product__btn-add">
+															<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path fill-rule="evenodd" clip-rule="evenodd"
+																	d="M15.8334 9.66659H10.8334V4.66659C10.8334 4.20575 10.46 3.83325 10 3.83325C9.54004 3.83325 9.16671 4.20575 9.16671 4.66659V9.66659H4.16671C3.70671 9.66659 3.33337 10.0391 3.33337 10.4999C3.33337 10.9608 3.70671 11.3333 4.16671 11.3333H9.16671V16.3333C9.16671 16.7941 9.54004 17.1666 10 17.1666C10.46 17.1666 10.8334 16.7941 10.8334 16.3333V11.3333H15.8334C16.2934 11.3333 16.6667 10.9608 16.6667 10.4999C16.6667 10.0391 16.2934 9.66659 15.8334 9.66659"
+																	fill="#ffffff" />
+																<mask id="mask0_2372_76493" style="mask-type:luminance"
+																	maskUnits="userSpaceOnUse" x="3" y="3" width="14" height="15">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M15.8334 9.66659H10.8334V4.66659C10.8334 4.20575 10.46 3.83325 10 3.83325C9.54004 3.83325 9.16671 4.20575 9.16671 4.66659V9.66659H4.16671C3.70671 9.66659 3.33337 10.0391 3.33337 10.4999C3.33337 10.9608 3.70671 11.3333 4.16671 11.3333H9.16671V16.3333C9.16671 16.7941 9.54004 17.1666 10 17.1666C10.46 17.1666 10.8334 16.7941 10.8334 16.3333V11.3333H15.8334C16.2934 11.3333 16.6667 10.9608 16.6667 10.4999C16.6667 10.0391 16.2934 9.66659 15.8334 9.66659"
+																		fill="white" />
+																</mask>
+																<g mask="url(#mask0_2372_76493)">
+																	<rect y="0.5" width="20" height="20" fill="" />
+																</g>
+															</svg>
+														</span>
+													</div>
+													<button type="button" class="remove-product">
+														<img src="./img/basket/del.png" alt="">
+													</button>
+												</div>
+											</div>
+										</div>
+										<div class="prod-hor">
+											<div class="prod-hor__item">
+												<button type="button" class="remove-product remove-product-desk">
+													<img src="./img/basket/del.png" alt="">
+												</button>
+											</div>
+											<div class="prod-hor__item">
+												<div class="prod-hor__wrapper-img">
+													<a href="product-page.html"><img src="./img/products/2.jpg" alt=""
+															class="basket-product__img prod-hor__img"></a>
+													<a href="favorite.html" class="favorite-icon prod-hor__favorite">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd" clip-rule="evenodd"
+																d="M7.21956 6C6.35556 6 5.54556 6.334 4.93956 6.941C3.68156 8.201 3.68156 10.252 4.94056 11.514L11.9996 18.585L19.0596 11.514C20.3186 10.252 20.3186 8.201 19.0596 6.941C17.8476 5.726 15.7116 5.728 14.4996 6.941L12.7076 8.736C12.3316 9.113 11.6676 9.113 11.2916 8.736L9.49956 6.94C8.89356 6.334 8.08456 6 7.21956 6ZM11.9996 21C11.7346 21 11.4796 20.895 11.2926 20.706L3.52456 12.926C1.48856 10.886 1.48856 7.567 3.52456 5.527C4.50856 4.543 5.82056 4 7.21956 4C8.61856 4 9.93156 4.543 10.9146 5.527L11.9996 6.614L13.0846 5.528C14.0686 4.543 15.3806 4 16.7806 4C18.1786 4 19.4916 4.543 20.4746 5.527C22.5116 7.567 22.5116 10.886 20.4756 12.926L12.7076 20.707C12.5196 20.895 12.2656 21 11.9996 21Z"
+																fill="currentColor" />
+															<mask id="mask0_2687_849293" style="mask-type:luminance"
+																maskUnits="userSpaceOnUse" x="1" y="4" width="22" height="17">
+																<path fill-rule="evenodd" clip-rule="evenodd"
+																	d="M7.21956 6C6.35556 6 5.54556 6.334 4.93956 6.941C3.68156 8.201 3.68156 10.252 4.94056 11.514L11.9996 18.585L19.0596 11.514C20.3186 10.252 20.3186 8.201 19.0596 6.941C17.8476 5.726 15.7116 5.728 14.4996 6.941L12.7076 8.736C12.3316 9.113 11.6676 9.113 11.2916 8.736L9.49956 6.94C8.89356 6.334 8.08456 6 7.21956 6ZM11.9996 21C11.7346 21 11.4796 20.895 11.2926 20.706L3.52456 12.926C1.48856 10.886 1.48856 7.567 3.52456 5.527C4.50856 4.543 5.82056 4 7.21956 4C8.61856 4 9.93156 4.543 10.9146 5.527L11.9996 6.614L13.0846 5.528C14.0686 4.543 15.3806 4 16.7806 4C18.1786 4 19.4916 4.543 20.4746 5.527C22.5116 7.567 22.5116 10.886 20.4756 12.926L12.7076 20.707C12.5196 20.895 12.2656 21 11.9996 21Z"
+																	fill="currentColor" />
+															</mask>
+															<g mask="url(#mask0_2687_849293)">
+																<rect width="24" height="24" fill="currentColor" />
+															</g>
+														</svg>
+													</a>
+													<span class="basket-product__img-text prod-hor__img-text">טיפוח שיער</span>
+												</div>
+												<div class="prod-hor__item-inner">
+													<div class="prod-hor__desk favorite-product__desk">
+														<h4 class="product-cart__title prod-hor__title">
+															mini sorbi
+														</h4>
+														<p class="product-cart__ingr prod-hor__ingr">
+															סט נסיעות
+														</p>
+														<p class="product-cart__text prod-hor__text">
+															נסי את המוצרים על שיערך, על מנת לראות את התוצאה.
+														</p>
+													</div>
+													<div class="prod-hor__review-tag">
+														<div class="tag prod-hor__tag">
+															<div class="tag__btn tag-open prod-hor__btn prod-hor__tag-btn">
+																להיט העונה
+															</div>
+															<span class="tag-open">
+																<svg width="24" height="24" class="tag__arrow prod-hor__arrow"
+																	viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M11.9999 16C11.7719 16 11.5449 15.923 11.3599 15.768L5.35991 10.768C4.93591 10.415 4.87791 9.78398 5.23191 9.35998C5.58491 8.93598 6.21491 8.87898 6.63991 9.23198L12.0109 13.708L17.3729 9.39298C17.8029 9.04698 18.4329 9.11498 18.7789 9.54498C19.1249 9.97498 19.0569 10.604 18.6269 10.951L12.6269 15.779C12.4439 15.926 12.2219 16 11.9999 16Z"
+																		fill="#231F20" />
+																</svg>
+															</span>
+															<ul class="tag__menu tag-menu prod-hor__menu">
+																<li class="tag-menu__item">
+																	<p class="tag-menu__link tag__btn dark-tag">
+																		הקנייה הטובה
+																	</p>
+																</li>
+																<li class="tag-menu__item">
+																	<p class="tag-menu__link tag__btn grey-tag">
+																		הקנייה הטובה
+																	</p>
+																</li>
+															</ul>
+														</div>
+														<div class="reviews-cart prod-hor__reviews-cart">
+															<p class="reviews-cart__link prod-hor__reviews-link offer-product__link">
+																<span class="comments-value">38</span> <span>תגובות</span>
+															</p>
+															<div class="stars-wrapper">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="prod-hor__item">
+												<div class="product-cart__settings prod-hor__settings favorite-product__settings">
+													<div class="price-wrapper prod-hor__price-wrapper">
+														<span class="price-new">
+															מחיר
+														</span>
+														<span class="price-old">
+															מחיר
+														</span>
+													</div>
+													<div class="volume dropdown prod-hor__dropdown">
+														<div class="volume-open prod-hor__volume-open">
+															<img src="./img/arrow.svg" alt="">
+														</div>
+														<span class="volume-open prod-hor__volume-text">75 ml</span>
+														<ul class="volume__menu volume-menu dropdown-menu prod-hor__volume-menu">
+															<li class="volume-menu__item dropdown-menu__item volume-active">
+																75 ml
+															</li>
+															<li class="tag-menu__item dropdown-menu__item ">
+																100 ml
+															</li>
+														</ul>
+													</div>
+													<div class="prod-hor__add-prod favorite-product__add-prod">
+														<button type="button" class="favorite-product__add-basket">
+															הוספה לסל
+														</button>
+														<span class="prod-hor__btn-add remove-cart favorite-product__btn-add">
+															<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path fill-rule="evenodd" clip-rule="evenodd"
+																	d="M15.8334 11.3334H4.16671C3.70671 11.3334 3.33337 10.9609 3.33337 10.5001C3.33337 10.0392 3.70671 9.66675 4.16671 9.66675H15.8334C16.2942 9.66675 16.6667 10.0392 16.6667 10.5001C16.6667 10.9609 16.2942 11.3334 15.8334 11.3334Z"
+																	fill="#ffffff" />
+																<mask id="mask0_2372_76502" style="mask-type:luminance"
+																	maskUnits="userSpaceOnUse" x="3" y="9" width="14" height="3">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M15.8334 11.3334H4.16671C3.70671 11.3334 3.33337 10.9609 3.33337 10.5001C3.33337 10.0392 3.70671 9.66675 4.16671 9.66675H15.8334C16.2942 9.66675 16.6667 10.0392 16.6667 10.5001C16.6667 10.9609 16.2942 11.3334 15.8334 11.3334Z"
+																		fill="white" />
+																</mask>
+																<g mask="url(#mask0_2372_76502)">
+																	<rect y="0.5" width="20" height="20" fill="" />
+																</g>
+															</svg>
+														</span>
+														<span
+															class="prod-hor__value-car value-cart favorite-product__value-car">1</span>
+														<span class="prod-hor__btn-add add-cart favorite-product__btn-add">
+															<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path fill-rule="evenodd" clip-rule="evenodd"
+																	d="M15.8334 9.66659H10.8334V4.66659C10.8334 4.20575 10.46 3.83325 10 3.83325C9.54004 3.83325 9.16671 4.20575 9.16671 4.66659V9.66659H4.16671C3.70671 9.66659 3.33337 10.0391 3.33337 10.4999C3.33337 10.9608 3.70671 11.3333 4.16671 11.3333H9.16671V16.3333C9.16671 16.7941 9.54004 17.1666 10 17.1666C10.46 17.1666 10.8334 16.7941 10.8334 16.3333V11.3333H15.8334C16.2934 11.3333 16.6667 10.9608 16.6667 10.4999C16.6667 10.0391 16.2934 9.66659 15.8334 9.66659"
+																	fill="#ffffff" />
+																<mask id="mask0_2372_76493" style="mask-type:luminance"
+																	maskUnits="userSpaceOnUse" x="3" y="3" width="14" height="15">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M15.8334 9.66659H10.8334V4.66659C10.8334 4.20575 10.46 3.83325 10 3.83325C9.54004 3.83325 9.16671 4.20575 9.16671 4.66659V9.66659H4.16671C3.70671 9.66659 3.33337 10.0391 3.33337 10.4999C3.33337 10.9608 3.70671 11.3333 4.16671 11.3333H9.16671V16.3333C9.16671 16.7941 9.54004 17.1666 10 17.1666C10.46 17.1666 10.8334 16.7941 10.8334 16.3333V11.3333H15.8334C16.2934 11.3333 16.6667 10.9608 16.6667 10.4999C16.6667 10.0391 16.2934 9.66659 15.8334 9.66659"
+																		fill="white" />
+																</mask>
+																<g mask="url(#mask0_2372_76493)">
+																	<rect y="0.5" width="20" height="20" fill="" />
+																</g>
+															</svg>
+														</span>
+													</div>
+													<button type="button" class="remove-product">
+														<img src="./img/basket/del.png" alt="">
+													</button>
+												</div>
+											</div>
+										</div>
+										<div class="prod-hor">
+											<div class="prod-hor__item">
+												<button type="button" class="remove-product remove-product-desk">
+													<img src="./img/basket/del.png" alt="">
+												</button>
+											</div>
+											<div class="prod-hor__item">
+												<div class="prod-hor__wrapper-img">
+													<a href="product-page.html"><img src="./img/products/2.jpg" alt=""
+															class="basket-product__img prod-hor__img"></a>
+													<a href="favorite.html" class="favorite-icon prod-hor__favorite">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd" clip-rule="evenodd"
+																d="M7.21956 6C6.35556 6 5.54556 6.334 4.93956 6.941C3.68156 8.201 3.68156 10.252 4.94056 11.514L11.9996 18.585L19.0596 11.514C20.3186 10.252 20.3186 8.201 19.0596 6.941C17.8476 5.726 15.7116 5.728 14.4996 6.941L12.7076 8.736C12.3316 9.113 11.6676 9.113 11.2916 8.736L9.49956 6.94C8.89356 6.334 8.08456 6 7.21956 6ZM11.9996 21C11.7346 21 11.4796 20.895 11.2926 20.706L3.52456 12.926C1.48856 10.886 1.48856 7.567 3.52456 5.527C4.50856 4.543 5.82056 4 7.21956 4C8.61856 4 9.93156 4.543 10.9146 5.527L11.9996 6.614L13.0846 5.528C14.0686 4.543 15.3806 4 16.7806 4C18.1786 4 19.4916 4.543 20.4746 5.527C22.5116 7.567 22.5116 10.886 20.4756 12.926L12.7076 20.707C12.5196 20.895 12.2656 21 11.9996 21Z"
+																fill="currentColor" />
+															<mask id="mask0_2687_849292" style="mask-type:luminance"
+																maskUnits="userSpaceOnUse" x="1" y="4" width="22" height="17">
+																<path fill-rule="evenodd" clip-rule="evenodd"
+																	d="M7.21956 6C6.35556 6 5.54556 6.334 4.93956 6.941C3.68156 8.201 3.68156 10.252 4.94056 11.514L11.9996 18.585L19.0596 11.514C20.3186 10.252 20.3186 8.201 19.0596 6.941C17.8476 5.726 15.7116 5.728 14.4996 6.941L12.7076 8.736C12.3316 9.113 11.6676 9.113 11.2916 8.736L9.49956 6.94C8.89356 6.334 8.08456 6 7.21956 6ZM11.9996 21C11.7346 21 11.4796 20.895 11.2926 20.706L3.52456 12.926C1.48856 10.886 1.48856 7.567 3.52456 5.527C4.50856 4.543 5.82056 4 7.21956 4C8.61856 4 9.93156 4.543 10.9146 5.527L11.9996 6.614L13.0846 5.528C14.0686 4.543 15.3806 4 16.7806 4C18.1786 4 19.4916 4.543 20.4746 5.527C22.5116 7.567 22.5116 10.886 20.4756 12.926L12.7076 20.707C12.5196 20.895 12.2656 21 11.9996 21Z"
+																	fill="currentColor" />
+															</mask>
+															<g mask="url(#mask0_2687_849292)">
+																<rect width="24" height="24" fill="currentColor" />
+															</g>
+														</svg>
+													</a>
+													<span class="basket-product__img-text prod-hor__img-text">טיפוח שיער</span>
+												</div>
+												<div class="prod-hor__item-inner">
+													<div class="prod-hor__desk favorite-product__desk">
+														<h4 class="product-cart__title prod-hor__title">
+															mini sorbi
+														</h4>
+														<p class="product-cart__ingr prod-hor__ingr">
+															סט נסיעות
+														</p>
+														<p class="product-cart__text prod-hor__text">
+															נסי את המוצרים על שיערך, על מנת לראות את התוצאה.
+														</p>
+													</div>
+													<div class="prod-hor__review-tag">
+														<div class="tag prod-hor__tag">
+															<div class="tag__btn tag-open prod-hor__btn prod-hor__tag-btn">
+																להיט העונה
+															</div>
+															<span class="tag-open">
+																<svg width="24" height="24" class="tag__arrow prod-hor__arrow"
+																	viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M11.9999 16C11.7719 16 11.5449 15.923 11.3599 15.768L5.35991 10.768C4.93591 10.415 4.87791 9.78398 5.23191 9.35998C5.58491 8.93598 6.21491 8.87898 6.63991 9.23198L12.0109 13.708L17.3729 9.39298C17.8029 9.04698 18.4329 9.11498 18.7789 9.54498C19.1249 9.97498 19.0569 10.604 18.6269 10.951L12.6269 15.779C12.4439 15.926 12.2219 16 11.9999 16Z"
+																		fill="#231F20" />
+																</svg>
+															</span>
+															<ul class="tag__menu tag-menu prod-hor__menu">
+																<li class="tag-menu__item">
+																	<p class="tag-menu__link tag__btn dark-tag">
+																		הקנייה הטובה
+																	</p>
+																</li>
+																<li class="tag-menu__item">
+																	<p class="tag-menu__link tag__btn grey-tag">
+																		הקנייה הטובה
+																	</p>
+																</li>
+															</ul>
+														</div>
+														<div class="reviews-cart prod-hor__reviews-cart">
+															<p class="reviews-cart__link prod-hor__reviews-link offer-product__link">
+																<span class="comments-value">38</span> <span>תגובות</span>
+															</p>
+															<div class="stars-wrapper">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+																<img src="./img/sale/star.svg" alt="" class="star">
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="prod-hor__item">
+												<div class="product-cart__settings prod-hor__settings favorite-product__settings">
+													<div class="price-wrapper prod-hor__price-wrapper">
+														<span class="price-new">
+															מחיר
+														</span>
+														<span class="price-old">
+															מחיר
+														</span>
+													</div>
+													<div class="volume dropdown prod-hor__dropdown">
+														<div class="volume-open prod-hor__volume-open">
+															<img src="./img/arrow.svg" alt="">
+														</div>
+														<span class="volume-open prod-hor__volume-text">75 ml</span>
+														<ul class="volume__menu volume-menu dropdown-menu prod-hor__volume-menu">
+															<li class="volume-menu__item dropdown-menu__item volume-active">
+																75 ml
+															</li>
+															<li class="tag-menu__item dropdown-menu__item ">
+																100 ml
+															</li>
+														</ul>
+													</div>
+													<div class="prod-hor__add-prod favorite-product__add-prod">
+														<button type="button" class="favorite-product__add-basket">
+															הוספה לסל
+														</button>
+														<span class="prod-hor__btn-add remove-cart favorite-product__btn-add">
+															<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path fill-rule="evenodd" clip-rule="evenodd"
+																	d="M15.8334 11.3334H4.16671C3.70671 11.3334 3.33337 10.9609 3.33337 10.5001C3.33337 10.0392 3.70671 9.66675 4.16671 9.66675H15.8334C16.2942 9.66675 16.6667 10.0392 16.6667 10.5001C16.6667 10.9609 16.2942 11.3334 15.8334 11.3334Z"
+																	fill="#ffffff" />
+																<mask id="mask0_2372_76502" style="mask-type:luminance"
+																	maskUnits="userSpaceOnUse" x="3" y="9" width="14" height="3">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M15.8334 11.3334H4.16671C3.70671 11.3334 3.33337 10.9609 3.33337 10.5001C3.33337 10.0392 3.70671 9.66675 4.16671 9.66675H15.8334C16.2942 9.66675 16.6667 10.0392 16.6667 10.5001C16.6667 10.9609 16.2942 11.3334 15.8334 11.3334Z"
+																		fill="white" />
+																</mask>
+																<g mask="url(#mask0_2372_76502)">
+																	<rect y="0.5" width="20" height="20" fill="" />
+																</g>
+															</svg>
+														</span>
+														<span
+															class="prod-hor__value-car value-cart favorite-product__value-car">1</span>
+														<span class="prod-hor__btn-add add-cart favorite-product__btn-add">
+															<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path fill-rule="evenodd" clip-rule="evenodd"
+																	d="M15.8334 9.66659H10.8334V4.66659C10.8334 4.20575 10.46 3.83325 10 3.83325C9.54004 3.83325 9.16671 4.20575 9.16671 4.66659V9.66659H4.16671C3.70671 9.66659 3.33337 10.0391 3.33337 10.4999C3.33337 10.9608 3.70671 11.3333 4.16671 11.3333H9.16671V16.3333C9.16671 16.7941 9.54004 17.1666 10 17.1666C10.46 17.1666 10.8334 16.7941 10.8334 16.3333V11.3333H15.8334C16.2934 11.3333 16.6667 10.9608 16.6667 10.4999C16.6667 10.0391 16.2934 9.66659 15.8334 9.66659"
+																	fill="#ffffff" />
+																<mask id="mask0_2372_76493" style="mask-type:luminance"
+																	maskUnits="userSpaceOnUse" x="3" y="3" width="14" height="15">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M15.8334 9.66659H10.8334V4.66659C10.8334 4.20575 10.46 3.83325 10 3.83325C9.54004 3.83325 9.16671 4.20575 9.16671 4.66659V9.66659H4.16671C3.70671 9.66659 3.33337 10.0391 3.33337 10.4999C3.33337 10.9608 3.70671 11.3333 4.16671 11.3333H9.16671V16.3333C9.16671 16.7941 9.54004 17.1666 10 17.1666C10.46 17.1666 10.8334 16.7941 10.8334 16.3333V11.3333H15.8334C16.2934 11.3333 16.6667 10.9608 16.6667 10.4999C16.6667 10.0391 16.2934 9.66659 15.8334 9.66659"
+																		fill="white" />
+																</mask>
+																<g mask="url(#mask0_2372_76493)">
+																	<rect y="0.5" width="20" height="20" fill="" />
+																</g>
+															</svg>
+														</span>
+													</div>
+													<button type="button" class="remove-product">
+														<img src="./img/basket/del.png" alt="">
+													</button>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="reviews-modal">
+			<div class="modal-cart__wrapper reviews-cart__wrapper">
+				<img src="./img/basket/close.png" class="close-basket close-modal-cart reviews-modal-close" alt="">
+				<div class="reviews-modal__wrap modal-cart__wrap reviews-modal__wrap-preview">
+					<div class="catedories-filter__wrapper-title reviews-modal__wrap-mob">
+						<p>תגובות</p>
+						<img src="./img/categories-page/close.png" class="close-basket-mob" alt="">
+					</div>
+					<div class="review-cart__top-title">
+						<div class="reviews-modal__title">
+							חוות דעת
+						</div>
+						<div class="reviwes-modal__add">
+							<button type="button" class="btn reviwes-modal__btn  reviwes-modal-add-open">
+								כתבו לנו תגובה
+							</button>
+							<div class="reviwes-modal__reviews-inner">
+								<p class="prod-hor__reviews-link offer-product__link">
+									(<span class="comments-value">38</span> תגובות)
+								</p>
+								<div class="stars-wrapper">
+									<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+									<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+									<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+									<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+									<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+								</div>
+							</div>
+							<p class="reviews-modal__text">
+								100% מהלקוחות ממליצים על המוצר הזה
+							</p>
+						</div>
+					</div>
+					<div class="modal-cart__inner-top reviews-madal__inner-top">
+						<div id="reviews-madal" class="nano-modal-cart nano">
+							<div class="nano-content favorite-modal__nano-content">
+								<div class="basket-products__wrapper">
+									<div class="reviews-madal__cart">
+										<div class="reviews-cart__item">
+											<div class="stars-wrapper">
+												<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+												<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+												<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+												<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+												<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+											</div>
+											<div class="reviews-cart__verified reviews-cart__verified-mob">
+												<span>
+													<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M11.0776 4.14194C10.7882 3.91394 10.3696 3.96594 10.1422 4.25594L5.43889 10.2613L3.18622 7.46327C2.95422 7.17727 2.53555 7.13061 2.24889 7.36194C1.96155 7.59327 1.91689 8.01327 2.14689 8.29927L4.92622 11.7513C5.05355 11.9086 5.24422 11.9999 5.44622 11.9999H5.45089C5.65355 11.9986 5.84555 11.9046 5.97089 11.7439L11.1916 5.07727C11.4189 4.78794 11.3682 4.36861 11.0776 4.14194ZM14.4109 4.14194C14.1209 3.91394 13.7029 3.96594 13.4756 4.25594L8.77222 10.2613L8.36955 9.76194L7.52622 10.8399L8.25955 11.7513C8.38689 11.9086 8.57755 11.9999 8.77955 11.9999H8.78422C8.98689 11.9986 9.17889 11.9046 9.30422 11.7439L14.5249 5.07727C14.7522 4.78794 14.7016 4.36861 14.4109 4.14194ZM6.65335 7.62967L5.80869 8.70701L5.48069 8.29967C5.25002 8.01301 5.29469 7.59301 5.58202 7.36167C5.86935 7.13101 6.28869 7.17701 6.51935 7.46367L6.65335 7.62967Z"
+															fill="#231F20" />
+														<mask id="mask0_2582_95238" style="mask-type:luminance"
+															maskUnits="userSpaceOnUse" x="2" y="3" width="13" height="9">
+															<path fill-rule="evenodd" clip-rule="evenodd"
+																d="M11.0776 4.14194C10.7882 3.91394 10.3696 3.96594 10.1422 4.25594L5.43889 10.2613L3.18622 7.46327C2.95422 7.17727 2.53555 7.13061 2.24889 7.36194C1.96155 7.59327 1.91689 8.01327 2.14689 8.29927L4.92622 11.7513C5.05355 11.9086 5.24422 11.9999 5.44622 11.9999H5.45089C5.65355 11.9986 5.84555 11.9046 5.97089 11.7439L11.1916 5.07727C11.4189 4.78794 11.3682 4.36861 11.0776 4.14194ZM14.4109 4.14194C14.1209 3.91394 13.7029 3.96594 13.4756 4.25594L8.77222 10.2613L8.36955 9.76194L7.52622 10.8399L8.25955 11.7513C8.38689 11.9086 8.57755 11.9999 8.77955 11.9999H8.78422C8.98689 11.9986 9.17889 11.9046 9.30422 11.7439L14.5249 5.07727C14.7522 4.78794 14.7016 4.36861 14.4109 4.14194ZM6.65335 7.62967L5.80869 8.70701L5.48069 8.29967C5.25002 8.01301 5.29469 7.59301 5.58202 7.36167C5.86935 7.13101 6.28869 7.17701 6.51935 7.46367L6.65335 7.62967Z"
+																fill="white" />
+														</mask>
+														<g mask="url(#mask0_2582_95238)">
+															<rect width="16" height="16" fill="#0D1C2E" />
+														</g>
+													</svg>
+												</span>
+												קניה מאומתת
+											</div>
+											<p class="reviews-modal__name">
+												אירינה
+											</p>
+											<p class="reviews-modal__gender">
+												מין: נקבה
+											</p>
+											<p class="reviews-modal__years">
+												בת 45
+											</p>
+											<p class="reviews-modal__hair-type">
+												סוג שיער: בינוני
+											</p>
+											<p class="reviews-modal__problems">
+												בעיות: שיער דליל ונשירה
+											</p>
+										</div>
+										<div class="reviews-cart__item">
+											<div class="reviews-cart__verified">
+												<span>
+													<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M11.0776 4.14173C10.7882 3.91373 10.3696 3.96573 10.1422 4.25573L5.43889 10.2611L3.18622 7.46306C2.95422 7.17706 2.53555 7.13039 2.24889 7.36173C1.96155 7.59306 1.91689 8.01306 2.14689 8.29906L4.92622 11.7511C5.05355 11.9084 5.24422 11.9997 5.44622 11.9997H5.45089C5.65355 11.9984 5.84555 11.9044 5.97089 11.7437L11.1916 5.07706C11.4189 4.78773 11.3682 4.36839 11.0776 4.14173ZM14.4109 4.14173C14.1209 3.91373 13.7029 3.96573 13.4756 4.25573L8.77222 10.2611L8.36955 9.76173L7.52622 10.8397L8.25955 11.7511C8.38689 11.9084 8.57755 11.9997 8.77955 11.9997H8.78422C8.98689 11.9984 9.17889 11.9044 9.30422 11.7437L14.5249 5.07706C14.7522 4.78773 14.7016 4.36839 14.4109 4.14173ZM6.65335 7.62946L5.80869 8.70679L5.48069 8.29946C5.25002 8.01279 5.29469 7.59279 5.58202 7.36146C5.86935 7.13079 6.28869 7.17679 6.51935 7.46346L6.65335 7.62946Z"
+															fill="#231F20" />
+														<mask id="mask0_2582_50114" style="mask-type:luminance"
+															maskUnits="userSpaceOnUse" x="2" y="3" width="13" height="9">
+															<path fill-rule="evenodd" clip-rule="evenodd"
+																d="M11.0776 4.14173C10.7882 3.91373 10.3696 3.96573 10.1422 4.25573L5.43889 10.2611L3.18622 7.46306C2.95422 7.17706 2.53555 7.13039 2.24889 7.36173C1.96155 7.59306 1.91689 8.01306 2.14689 8.29906L4.92622 11.7511C5.05355 11.9084 5.24422 11.9997 5.44622 11.9997H5.45089C5.65355 11.9984 5.84555 11.9044 5.97089 11.7437L11.1916 5.07706C11.4189 4.78773 11.3682 4.36839 11.0776 4.14173ZM14.4109 4.14173C14.1209 3.91373 13.7029 3.96573 13.4756 4.25573L8.77222 10.2611L8.36955 9.76173L7.52622 10.8397L8.25955 11.7511C8.38689 11.9084 8.57755 11.9997 8.77955 11.9997H8.78422C8.98689 11.9984 9.17889 11.9044 9.30422 11.7437L14.5249 5.07706C14.7522 4.78773 14.7016 4.36839 14.4109 4.14173ZM6.65335 7.62946L5.80869 8.70679L5.48069 8.29946C5.25002 8.01279 5.29469 7.59279 5.58202 7.36146C5.86935 7.13079 6.28869 7.17679 6.51935 7.46346L6.65335 7.62946Z"
+																fill="white" />
+														</mask>
+														<g mask="url(#mask0_2582_50114)">
+															<rect width="16" height="16" fill="#0D1C2E" />
+														</g>
+													</svg>
+
+												</span>
+												קניה מאומתת
+											</div>
+											<p class="reviews-cart__text">
+												השתמשתי במוצרים בפעם הראשונה, הרבה זמן חשבתי לרכוש את הסט לחיזוק השיער. אני מאוד
+												מרוצה מאיך שזה עובד, השיער שלי נראה ומרגיש הרבה יותר מבריק ורך יותר למגע.
+											</p>
+										</div>
+									</div>
+									<div class="reviews-madal__cart">
+										<div class="reviews-cart__item">
+											<div class="stars-wrapper">
+												<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+												<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+												<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+												<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+												<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+											</div>
+											<div class="reviews-cart__verified reviews-cart__verified-mob">
+												<span>
+													<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M11.0776 4.14194C10.7882 3.91394 10.3696 3.96594 10.1422 4.25594L5.43889 10.2613L3.18622 7.46327C2.95422 7.17727 2.53555 7.13061 2.24889 7.36194C1.96155 7.59327 1.91689 8.01327 2.14689 8.29927L4.92622 11.7513C5.05355 11.9086 5.24422 11.9999 5.44622 11.9999H5.45089C5.65355 11.9986 5.84555 11.9046 5.97089 11.7439L11.1916 5.07727C11.4189 4.78794 11.3682 4.36861 11.0776 4.14194ZM14.4109 4.14194C14.1209 3.91394 13.7029 3.96594 13.4756 4.25594L8.77222 10.2613L8.36955 9.76194L7.52622 10.8399L8.25955 11.7513C8.38689 11.9086 8.57755 11.9999 8.77955 11.9999H8.78422C8.98689 11.9986 9.17889 11.9046 9.30422 11.7439L14.5249 5.07727C14.7522 4.78794 14.7016 4.36861 14.4109 4.14194ZM6.65335 7.62967L5.80869 8.70701L5.48069 8.29967C5.25002 8.01301 5.29469 7.59301 5.58202 7.36167C5.86935 7.13101 6.28869 7.17701 6.51935 7.46367L6.65335 7.62967Z"
+															fill="#231F20" />
+														<mask id="mask0_2582_95238" style="mask-type:luminance"
+															maskUnits="userSpaceOnUse" x="2" y="3" width="13" height="9">
+															<path fill-rule="evenodd" clip-rule="evenodd"
+																d="M11.0776 4.14194C10.7882 3.91394 10.3696 3.96594 10.1422 4.25594L5.43889 10.2613L3.18622 7.46327C2.95422 7.17727 2.53555 7.13061 2.24889 7.36194C1.96155 7.59327 1.91689 8.01327 2.14689 8.29927L4.92622 11.7513C5.05355 11.9086 5.24422 11.9999 5.44622 11.9999H5.45089C5.65355 11.9986 5.84555 11.9046 5.97089 11.7439L11.1916 5.07727C11.4189 4.78794 11.3682 4.36861 11.0776 4.14194ZM14.4109 4.14194C14.1209 3.91394 13.7029 3.96594 13.4756 4.25594L8.77222 10.2613L8.36955 9.76194L7.52622 10.8399L8.25955 11.7513C8.38689 11.9086 8.57755 11.9999 8.77955 11.9999H8.78422C8.98689 11.9986 9.17889 11.9046 9.30422 11.7439L14.5249 5.07727C14.7522 4.78794 14.7016 4.36861 14.4109 4.14194ZM6.65335 7.62967L5.80869 8.70701L5.48069 8.29967C5.25002 8.01301 5.29469 7.59301 5.58202 7.36167C5.86935 7.13101 6.28869 7.17701 6.51935 7.46367L6.65335 7.62967Z"
+																fill="white" />
+														</mask>
+														<g mask="url(#mask0_2582_95238)">
+															<rect width="16" height="16" fill="#0D1C2E" />
+														</g>
+													</svg>
+												</span>
+												קניה מאומתת
+											</div>
+											<p class="reviews-modal__name">
+												אירינה
+											</p>
+											<p class="reviews-modal__gender">
+												מין: נקבה
+											</p>
+											<p class="reviews-modal__years">
+												בת 45
+											</p>
+											<p class="reviews-modal__hair-type">
+												סוג שיער: בינוני
+											</p>
+											<p class="reviews-modal__problems">
+												בעיות: שיער דליל ונשירה
+											</p>
+										</div>
+										<div class="reviews-cart__item">
+											<div class="reviews-cart__verified">
+												<span>
+													<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M11.0776 4.14173C10.7882 3.91373 10.3696 3.96573 10.1422 4.25573L5.43889 10.2611L3.18622 7.46306C2.95422 7.17706 2.53555 7.13039 2.24889 7.36173C1.96155 7.59306 1.91689 8.01306 2.14689 8.29906L4.92622 11.7511C5.05355 11.9084 5.24422 11.9997 5.44622 11.9997H5.45089C5.65355 11.9984 5.84555 11.9044 5.97089 11.7437L11.1916 5.07706C11.4189 4.78773 11.3682 4.36839 11.0776 4.14173ZM14.4109 4.14173C14.1209 3.91373 13.7029 3.96573 13.4756 4.25573L8.77222 10.2611L8.36955 9.76173L7.52622 10.8397L8.25955 11.7511C8.38689 11.9084 8.57755 11.9997 8.77955 11.9997H8.78422C8.98689 11.9984 9.17889 11.9044 9.30422 11.7437L14.5249 5.07706C14.7522 4.78773 14.7016 4.36839 14.4109 4.14173ZM6.65335 7.62946L5.80869 8.70679L5.48069 8.29946C5.25002 8.01279 5.29469 7.59279 5.58202 7.36146C5.86935 7.13079 6.28869 7.17679 6.51935 7.46346L6.65335 7.62946Z"
+															fill="#231F20" />
+														<mask id="mask0_2582_50114" style="mask-type:luminance"
+															maskUnits="userSpaceOnUse" x="2" y="3" width="13" height="9">
+															<path fill-rule="evenodd" clip-rule="evenodd"
+																d="M11.0776 4.14173C10.7882 3.91373 10.3696 3.96573 10.1422 4.25573L5.43889 10.2611L3.18622 7.46306C2.95422 7.17706 2.53555 7.13039 2.24889 7.36173C1.96155 7.59306 1.91689 8.01306 2.14689 8.29906L4.92622 11.7511C5.05355 11.9084 5.24422 11.9997 5.44622 11.9997H5.45089C5.65355 11.9984 5.84555 11.9044 5.97089 11.7437L11.1916 5.07706C11.4189 4.78773 11.3682 4.36839 11.0776 4.14173ZM14.4109 4.14173C14.1209 3.91373 13.7029 3.96573 13.4756 4.25573L8.77222 10.2611L8.36955 9.76173L7.52622 10.8397L8.25955 11.7511C8.38689 11.9084 8.57755 11.9997 8.77955 11.9997H8.78422C8.98689 11.9984 9.17889 11.9044 9.30422 11.7437L14.5249 5.07706C14.7522 4.78773 14.7016 4.36839 14.4109 4.14173ZM6.65335 7.62946L5.80869 8.70679L5.48069 8.29946C5.25002 8.01279 5.29469 7.59279 5.58202 7.36146C5.86935 7.13079 6.28869 7.17679 6.51935 7.46346L6.65335 7.62946Z"
+																fill="white" />
+														</mask>
+														<g mask="url(#mask0_2582_50114)">
+															<rect width="16" height="16" fill="#0D1C2E" />
+														</g>
+													</svg>
+
+												</span>
+												קניה מאומתת
+											</div>
+											<p class="reviews-cart__text">
+												השתמשתי במוצרים בפעם הראשונה, הרבה זמן חשבתי לרכוש את הסט לחיזוק השיער. אני מאוד
+												מרוצה מאיך שזה עובד, השיער שלי נראה ומרגיש הרבה יותר מבריק ורך יותר למגע.
+											</p>
+										</div>
+									</div>
+									<div class="reviews-madal__cart">
+										<div class="reviews-cart__item">
+											<div class="stars-wrapper">
+												<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+												<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+												<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+												<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+												<img src="./img/sale/star.svg" alt="" class="star offer-product__star">
+											</div>
+											<div class="reviews-cart__verified reviews-cart__verified-mob">
+												<span>
+													<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M11.0776 4.14194C10.7882 3.91394 10.3696 3.96594 10.1422 4.25594L5.43889 10.2613L3.18622 7.46327C2.95422 7.17727 2.53555 7.13061 2.24889 7.36194C1.96155 7.59327 1.91689 8.01327 2.14689 8.29927L4.92622 11.7513C5.05355 11.9086 5.24422 11.9999 5.44622 11.9999H5.45089C5.65355 11.9986 5.84555 11.9046 5.97089 11.7439L11.1916 5.07727C11.4189 4.78794 11.3682 4.36861 11.0776 4.14194ZM14.4109 4.14194C14.1209 3.91394 13.7029 3.96594 13.4756 4.25594L8.77222 10.2613L8.36955 9.76194L7.52622 10.8399L8.25955 11.7513C8.38689 11.9086 8.57755 11.9999 8.77955 11.9999H8.78422C8.98689 11.9986 9.17889 11.9046 9.30422 11.7439L14.5249 5.07727C14.7522 4.78794 14.7016 4.36861 14.4109 4.14194ZM6.65335 7.62967L5.80869 8.70701L5.48069 8.29967C5.25002 8.01301 5.29469 7.59301 5.58202 7.36167C5.86935 7.13101 6.28869 7.17701 6.51935 7.46367L6.65335 7.62967Z"
+															fill="#231F20" />
+														<mask id="mask0_2582_95238" style="mask-type:luminance"
+															maskUnits="userSpaceOnUse" x="2" y="3" width="13" height="9">
+															<path fill-rule="evenodd" clip-rule="evenodd"
+																d="M11.0776 4.14194C10.7882 3.91394 10.3696 3.96594 10.1422 4.25594L5.43889 10.2613L3.18622 7.46327C2.95422 7.17727 2.53555 7.13061 2.24889 7.36194C1.96155 7.59327 1.91689 8.01327 2.14689 8.29927L4.92622 11.7513C5.05355 11.9086 5.24422 11.9999 5.44622 11.9999H5.45089C5.65355 11.9986 5.84555 11.9046 5.97089 11.7439L11.1916 5.07727C11.4189 4.78794 11.3682 4.36861 11.0776 4.14194ZM14.4109 4.14194C14.1209 3.91394 13.7029 3.96594 13.4756 4.25594L8.77222 10.2613L8.36955 9.76194L7.52622 10.8399L8.25955 11.7513C8.38689 11.9086 8.57755 11.9999 8.77955 11.9999H8.78422C8.98689 11.9986 9.17889 11.9046 9.30422 11.7439L14.5249 5.07727C14.7522 4.78794 14.7016 4.36861 14.4109 4.14194ZM6.65335 7.62967L5.80869 8.70701L5.48069 8.29967C5.25002 8.01301 5.29469 7.59301 5.58202 7.36167C5.86935 7.13101 6.28869 7.17701 6.51935 7.46367L6.65335 7.62967Z"
+																fill="white" />
+														</mask>
+														<g mask="url(#mask0_2582_95238)">
+															<rect width="16" height="16" fill="#0D1C2E" />
+														</g>
+													</svg>
+												</span>
+												קניה מאומתת
+											</div>
+											<p class="reviews-modal__name">
+												אירינה
+											</p>
+											<p class="reviews-modal__gender">
+												מין: נקבה
+											</p>
+											<p class="reviews-modal__years">
+												בת 45
+											</p>
+											<p class="reviews-modal__hair-type">
+												סוג שיער: בינוני
+											</p>
+											<p class="reviews-modal__problems">
+												בעיות: שיער דליל ונשירה
+											</p>
+										</div>
+										<div class="reviews-cart__item">
+											<div class="reviews-cart__verified">
+												<span>
+													<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M11.0776 4.14173C10.7882 3.91373 10.3696 3.96573 10.1422 4.25573L5.43889 10.2611L3.18622 7.46306C2.95422 7.17706 2.53555 7.13039 2.24889 7.36173C1.96155 7.59306 1.91689 8.01306 2.14689 8.29906L4.92622 11.7511C5.05355 11.9084 5.24422 11.9997 5.44622 11.9997H5.45089C5.65355 11.9984 5.84555 11.9044 5.97089 11.7437L11.1916 5.07706C11.4189 4.78773 11.3682 4.36839 11.0776 4.14173ZM14.4109 4.14173C14.1209 3.91373 13.7029 3.96573 13.4756 4.25573L8.77222 10.2611L8.36955 9.76173L7.52622 10.8397L8.25955 11.7511C8.38689 11.9084 8.57755 11.9997 8.77955 11.9997H8.78422C8.98689 11.9984 9.17889 11.9044 9.30422 11.7437L14.5249 5.07706C14.7522 4.78773 14.7016 4.36839 14.4109 4.14173ZM6.65335 7.62946L5.80869 8.70679L5.48069 8.29946C5.25002 8.01279 5.29469 7.59279 5.58202 7.36146C5.86935 7.13079 6.28869 7.17679 6.51935 7.46346L6.65335 7.62946Z"
+															fill="#231F20" />
+														<mask id="mask0_2582_50114" style="mask-type:luminance"
+															maskUnits="userSpaceOnUse" x="2" y="3" width="13" height="9">
+															<path fill-rule="evenodd" clip-rule="evenodd"
+																d="M11.0776 4.14173C10.7882 3.91373 10.3696 3.96573 10.1422 4.25573L5.43889 10.2611L3.18622 7.46306C2.95422 7.17706 2.53555 7.13039 2.24889 7.36173C1.96155 7.59306 1.91689 8.01306 2.14689 8.29906L4.92622 11.7511C5.05355 11.9084 5.24422 11.9997 5.44622 11.9997H5.45089C5.65355 11.9984 5.84555 11.9044 5.97089 11.7437L11.1916 5.07706C11.4189 4.78773 11.3682 4.36839 11.0776 4.14173ZM14.4109 4.14173C14.1209 3.91373 13.7029 3.96573 13.4756 4.25573L8.77222 10.2611L8.36955 9.76173L7.52622 10.8397L8.25955 11.7511C8.38689 11.9084 8.57755 11.9997 8.77955 11.9997H8.78422C8.98689 11.9984 9.17889 11.9044 9.30422 11.7437L14.5249 5.07706C14.7522 4.78773 14.7016 4.36839 14.4109 4.14173ZM6.65335 7.62946L5.80869 8.70679L5.48069 8.29946C5.25002 8.01279 5.29469 7.59279 5.58202 7.36146C5.86935 7.13079 6.28869 7.17679 6.51935 7.46346L6.65335 7.62946Z"
+																fill="white" />
+														</mask>
+														<g mask="url(#mask0_2582_50114)">
+															<rect width="16" height="16" fill="#0D1C2E" />
+														</g>
+													</svg>
+
+												</span>
+												קניה מאומתת
+											</div>
+											<p class="reviews-cart__text">
+												השתמשתי במוצרים בפעם הראשונה, הרבה זמן חשבתי לרכוש את הסט לחיזוק השיער. אני מאוד
+												מרוצה מאיך שזה עובד, השיער שלי נראה ומרגיש הרבה יותר מבריק ורך יותר למגע.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="reviews-modal__wrap reviews-modal__wrap-add modal-cart__wrap">
+					<div class="catedories-filter__wrapper-title reviews-modal__wrap-mob">
+						<p>תגובות</p>
+						<img src="./img/categories-page/close.png" class="close-basket-mob" alt="">
+					</div>
+					<div id="reviews-madal-add" class="nano-basket nano-modal-cart nano reviews-madal__nano-content">
+						<div class="nano-content reviews-nano-content">
+							<div class="review-cart__top-title ">
+								<div class="reviews-modal__title reviews-modal-add__title">
+									תשאירו תגובה
+									<p class="reviews-modal-add__text">
+										רייטינג שלך
+									</p>
+									<div class="rating"></div>
+								</div>
+							</div>
+
+							<div class="reviews-modal__inner-top">
+								<div class="basket-products__wrapper">
+									<form action="" class="reviews-form" id="reviews-form">
+										<div class="input__wrapper">
+											<div class="input__inner">
+												<label for="reviews-name" class="form__label reviews-label">כותרת לתגובה</label>
+												<div class="input__content reviews-content">
+													<input type="text" name="reviews-name" class="form__input reviews-input"
+														id="reviews-name" placeholder="תגדירו כותרת לתגובה שלכם" required>
+												</div>
+											</div>
+											<div class="input__inner">
+												<label for="reviews-text" class="form__label reviews-label">תגובה שלך</label>
+												<div class="input__content reviews-content">
+													<textarea name="reviews-text" class="reviews-input form__input" id="reviews-text"
+														placeholder="כתבו בכמה מילים את התגובה שלכם" required></textarea>
+												</div>
+											</div>
+											<div class="input__inner reviews-inner">
+												<p class="reviews-label">האם הייתם ממליצים על המוצר הזה</p>
+												<label class="custom-radio">
+													<input type="radio" checked name="color" value="כן">
+													<span>כן</span>
+												</label>
+												<label class="custom-radio">
+													<input type="radio" name="color" value="לא">
+													<span>לא</span>
+												</label>
+											</div>
+											<button type="submit" class="btn reviwes-modal__btn reviwes-form__btn">
+												לפרסם
+											</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- scripts -->
+	<script src="./js/code.jquery.com_jquery-3.7.0.min.js"></script>
+	<script src="./js/swiper.min.js"></script>
+	<script src="./js/jquery.nanoscroller.min.js"></script>
+	<script src="./js/jquery.nice-select.js"></script>
+	<script src="./js/select2.min.js"></script>
+	<script src="./js/main.js"></script>
+	<script>
+		function togglePasswordVisibility(inputId) {
+			var passwordInput = document.getElementById(inputId);
+			if (passwordInput.type === "password") {
+				passwordInput.type = "text";
+			} else {
+				passwordInput.type = "password";
+			}
+		}
+	</script>
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "BreadcrumbList",
+			"itemListElement": [{
+				"@type": "ListItem",
+				"position": 1,
+				"item": {
+				"@id": "index.html",
+				"name": "דף הבית"
+				}
+			},{
+				"@type": "ListItem",
+				"position": 2,
+				"item": {
+				"@id": "blog-video.html",
+				"name": "בלוג חדשות"
+				}
+			}]
+		}
+	</script>
+</body>
+
+</html>

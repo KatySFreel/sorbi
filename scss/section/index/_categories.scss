@@ -1,0 +1,72 @@
+.categories {
+	&__list {
+		margin-top: 80px;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		@include breakpoint(xxx) {
+			grid-template-columns: repeat(2, 1fr);
+			justify-content: space-between;
+			gap: 20px;
+			margin-top: 36px;
+		}
+		@include breakpoint(sm) {
+			display: flex;
+			flex-direction: column-reverse;
+		}
+	}
+
+	&__item {
+		margin: 12px;
+		display: flex;
+		flex-direction: column;
+		background: #F9F2EC;
+		overflow: hidden;
+		justify-content: space-between;
+		&:hover img {
+			transform: scale(1.1);
+		}
+		@include breakpoint(md) {
+			margin: 0;
+		}
+	}
+
+	&__img {
+		height: 365px;
+		display: inline-block;
+		width: 100%;
+		object-fit: cover;
+		object-position: center;
+		transition: 1s;
+		height: auto;
+	}
+
+	&__content {
+		background: #F9F2EC;
+		padding: 24px;
+		@include breakpoint(md) {
+			padding: 24px 18px;
+		}
+	}
+
+	&__title {
+		text-align: center;
+		font-size: 24px;
+		line-height: 36px;
+		margin-bottom: 16px;
+	}
+
+	&__text {
+		margin-bottom: 16px;
+	}
+
+	&__btn {
+		border: 1px solid #000000;
+		border-radius: 4px;
+		max-width: 160px;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 24px;
+		margin: 0 auto;
+
+	}
+}

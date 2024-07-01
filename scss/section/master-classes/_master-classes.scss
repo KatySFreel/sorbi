@@ -1,0 +1,144 @@
+.master-offer__wrapper {
+	display: none;
+	@include breakpoint(md) {
+		display: block;
+	}
+}
+
+.master-offer__wrapper-desk {
+	@include breakpoint(md) {
+		display: none;
+	}
+}
+
+.master-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	row-gap: 32px;
+	justify-content: space-between;
+	@include breakpoint(lg) {
+		margin-bottom: 39px;
+		row-gap: 12px;
+	}
+}
+
+.master-body__text {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	max-width: 1464px;
+	@include breakpoint(lg) {
+		margin-bottom: 50px;
+	}
+}
+
+.master-body__title {
+	@include breakpoint(lg) {
+		margin-bottom: 8px;
+	}
+}
+
+.master-body__img {
+	width: 100%;
+	transition: $transform;
+}
+
+.master-body__img-wrapper {
+	width: 100%;
+	max-height: 560px;
+	position: relative;
+	transition: $transform;
+	overflow: hidden;
+	&:hover {
+		transition: $transform;
+		.master-body__img {
+			transform: scale(1.03);
+			transition: $transform;
+		}
+	}
+}
+
+.master-svg {
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+	svg {
+		width: 100%;
+		height: 100%;
+	}
+	@include breakpoint(lg) {
+		width: 120px;
+		height: 120px;
+	}
+}
+
+.master-item__title {
+	font-size: 32px;
+	line-height: 48px;
+	text-align: center;
+	@include breakpoint(md) {
+		font-size: 20px;
+		line-height: 24px;
+	}
+}
+
+.master-item__btn {
+	background: var(--base-bg-black, #000);
+	color: $bg-light;
+	width: 100%;
+	max-width: 570px;
+	padding: 0;
+	line-height: 50px;
+	@include breakpoint(md) {
+		font-size: 20px;
+		line-height: 56px;
+		letter-spacing: 0.4px;
+		background: var(--base-dark-grey, #3D3D3D);
+	}
+}
+
+.master-body__wrapper {
+	margin-top: 112px;
+	align-items: stretch;
+	@include breakpoint(lg) {
+		margin-top: 0px;
+	}
+}
+
+.master-banner__wrapper {
+	border-radius: 24px;
+	background: var(--hair-1, #F9F2EC);
+	padding: 10px 205px;
+	position: relative;
+	justify-content: start;
+	@media (max-width: 1400px) {
+		padding: 10px 80px;
+		justify-content: center;
+	}
+	@include breakpoint(xlg) {
+		padding: 10px 5px;
+	}
+}
+
+.master-banner__text {
+	display: none;
+	@include breakpoint(lg) {
+		display: block;
+	}
+}
+
+.master-banner__img {
+	position: absolute;
+	left: 40%;
+	transform: translate(-50%, 0px);
+	@media (max-width: 1400px) {
+		position: relative;
+		left: inherit;
+		transform: none;
+	}
+}

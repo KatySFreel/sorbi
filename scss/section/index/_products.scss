@@ -1,0 +1,148 @@
+.product {
+	@include breakpoint(lg) {
+		margin-top: 29px;
+	}
+	&__content {
+		height: 162px;
+		overflow: hidden;
+	}
+	&__settings {
+		padding-top: 10px;
+	}
+	.product-container {
+		@include breakpoint(lg) {
+			max-width: 100%;
+		}
+	}
+
+	&__ingr {
+		font-size: 15px;
+	}
+
+	@media (max-width: 1400px) {
+		.price-wrapper {
+			gap: 8px;
+		}
+		.volume {
+			font-size: 16px;
+   		line-height: 24px;
+		}
+	}
+	@include breakpoint(xlg) {
+		.price-wrapper {
+			gap: 24px;
+			@include breakpoint(lg) {
+					gap: 10px;
+			}
+		}
+		.volume {
+			font-size: 20px;
+			line-height: 35px;
+			@include breakpoint(lg) {
+					font-size: 16px;
+					line-height: 24px;
+					.price-wrapper {
+						gap: 16px;
+					}
+			}
+		}
+	}
+
+	@include breakpoint(sm) {
+		.swiper {
+			 overflow: inherit;
+		}
+		.swiper-wrapper {
+			z-index: 2;
+		}
+		.swiper-pagination {
+			z-index: 1;
+		}
+	}
+
+}
+
+.swiper {
+	width: 95%;
+	margin: 0 auto;
+
+}
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets {
+	display: flex;
+	align-items: center;
+	width: fit-content;
+	gap: 16px;	
+	margin: 32px auto 0px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	background: #000000;
+	border-radius: 32px;
+	width: 40px;
+	height: 12px;
+	transition: 0.2s;
+	cursor: pointer;
+
+	@include breakpoint(md) {
+		width: 23.75px;
+		height: 7.12px;
+	}
+}
+
+.product-swiper {
+	margin-top: 56px;
+}
+
+.swiper-scrollbar-drag {
+	height: 5px;
+	background: $dark-grey;
+}
+
+.swiper-scrollbar {
+	background: $face-2;
+	margin: 0 auto;
+	width: 100%;
+	z-index: 100;
+	margin-top: 60px;
+}
+
+.swiper-container-horizontal>.swiper-scrollbar {
+	border-radius: 2px;
+	height: 5px;
+	width: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 100;
+	cursor: pointer;
+}
+
+.swiper-slide {
+	position: relative;
+}
+
+.swiper-scrollbar {
+	@include breakpoint(sm) {
+		display: none;
+	}
+}
+
+.swiper-pagination {
+	position: relative;
+	margin-top: 32px;
+}
+
+@include breakpoint(xxx) {
+	.product-prev {
+		right: 16px;
+		@include breakpoint (md) {
+			right: 0;
+		}
+	}
+	.product-next {
+		left: 16px;
+		@include breakpoint (md) {
+			left: 0;
+		}
+	}
+}

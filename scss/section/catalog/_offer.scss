@@ -1,0 +1,114 @@
+.catalog-slider {
+	position: relative;
+	background: $face-1;
+
+}
+.catalog-wrapper__imgs {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	@include breakpoint (xlg) {
+		justify-content: flex-end;
+	}
+}
+
+.catalog-offer__img-prod {
+	@include breakpoint(xlg) {
+		position: absolute;
+		bottom: 214px;
+		right: 20px;
+		z-index: 100;
+	}
+}
+
+.catalog-slider__wrapper {
+	position: absolute;
+	bottom: 0;
+	@include breakpoint (xlg) {
+		position: relative;
+	}
+}
+
+.catalog-slider__item {
+	margin-top: 124px;
+	height: auto;
+	@media (max-width: 1298px) {
+		padding: 0px 15px;
+		margin-top: 60px;
+	} 
+	@include breakpoint (xlg) {
+		background: $face-1;
+	} 
+}
+
+.catalog-slider__title {
+	width: 100%;
+	max-width: 583px;
+	font-weight: 800;
+	font-size: 80px;
+	line-height: 80px;
+	color: $bg-dark;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 auto;
+	margin-bottom: 112px;
+	@media (max-width: 1298px) {
+		margin: 0px auto 23px;
+		font-size: 50px;
+		line-height: 48px;
+		max-width: 483px;
+	} 
+	@include breakpoint(xlg) {
+		font-size: 32px;
+		line-height: 40px;
+		text-align: left;
+		max-width: 234px;
+		margin: 0px auto 23px 0px;
+	}
+}
+
+.catalog-slider__btn {
+	width: 100%;
+	max-width: 177px;
+	padding: 0px 30px;
+	font-weight: 500;
+	line-height: 50px;
+	margin: 0 auto;
+	@include breakpoint(xlg) {
+		display: block;
+		max-width: 100%;
+		font-weight: 400;
+		margin-bottom: 64px;
+	}
+}
+
+.catalog-slider-prev-offer {
+	@include breakpoint(xlg) {
+		top: 45%;
+		width: 32px;
+		height: 80px;
+		right: 0px;
+		background-image: url(../img/offer/arrow-mob-r.svg);
+		background-repeat: no-repeat;
+	}
+}
+
+.catalog-slider-next-offer {
+	@include breakpoint(xlg) {
+		top: 45%;
+		width: 32px;
+		height: 80px;
+		left: 0px;
+		background-image: url(../img/offer/arrow-mob-l.svg);
+		background-repeat: no-repeat;
+	}
+}
+
+.catalog-slider-control {
+	@media (max-width: 1298px) {
+		bottom: 38px;
+	} 
+	@include breakpoint(xlg) {
+		bottom: 24px;
+	}
+}
